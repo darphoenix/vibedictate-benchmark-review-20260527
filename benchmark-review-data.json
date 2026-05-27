@@ -1,0 +1,3797 @@
+{
+  "generated_at": "2026-05-27",
+  "title": "VibeDictate Lithuanian Gate30 Benchmark Review",
+  "runs": {
+    "control": {
+      "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260526_221335_autoresearch_20260526-221333_external_dial_step50_gate30_control_v1_gate30-heari",
+      "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260526_221402_autoresearch_20260526-221333_external_dial_step50_gate30_control_v1_gate30-dicta"
+    },
+    "step50": {
+      "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260526_221536_autoresearch_20260526-221535_external_dial_step50_gate30_eval_loaded_v1_gate30-h",
+      "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260526_221604_autoresearch_20260526-221535_external_dial_step50_gate30_eval_loaded_v1_gate30-d"
+    },
+    "step300": {
+      "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260526_214409_autoresearch_20260526-214408_external_dial_returned_step300_gate30_eval_loaded_v",
+      "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260526_214438_autoresearch_20260526-214408_external_dial_returned_step300_gate30_eval_loaded_v"
+    }
+  },
+  "summaries": {
+    "control": {
+      "hearing": {
+        "rows": 30,
+        "wer": 0.10730593607305935,
+        "cer": 0.05669348939283102,
+        "word_edits": 47,
+        "word_ref": 438,
+        "char_edits": 155,
+        "char_ref": 2734,
+        "duration_sec": 261.036,
+        "latency_mean_sec": 0.890046,
+        "latency_p50_sec": 0.864811,
+        "latency_p90_sec": 1.20926,
+        "rtf_mean": 0.10918,
+        "empty_hypotheses": 0,
+        "hallucination_like": 0,
+        "run_id": "20260526_221335_autoresearch_20260526-221333_external_dial_step50_gate30_control_v1_gate30-heari",
+        "label": "autoresearch_20260526-221333_external_dial_step50_gate30_control_v1_gate30-hearing",
+        "created_at": "2026-05-26T19:14:02.053155+00:00",
+        "endpoint": "http://127.0.0.1:8765/v1/transcribe",
+        "request_pnc": "",
+        "request_itn": "",
+        "request_prompt": "",
+        "metric_profile": "hearing",
+        "backend": "canary",
+        "model_id": "nvidia/canary-1b-v2",
+        "language_mode": "fixed",
+        "source_lang": "lt",
+        "target_lang": "lt",
+        "cuda_device": "NVIDIA GeForce RTX 3090",
+        "rows_ok": 30,
+        "rows_failed": 0,
+        "by_source": {
+          "common_voice_25": {
+            "rows": 10,
+            "wer": 0.15789473684210525,
+            "cer": 0.03413654618473896,
+            "word_edits": 12,
+            "word_ref": 76,
+            "char_edits": 17,
+            "char_ref": 498,
+            "duration_sec": 54.817,
+            "latency_mean_sec": 0.692583,
+            "latency_p50_sec": 0.64998,
+            "latency_p90_sec": 0.867606,
+            "rtf_mean": 0.128378,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "fleurs": {
+            "rows": 10,
+            "wer": 0.06358381502890173,
+            "cer": 0.03195488721804511,
+            "word_edits": 11,
+            "word_ref": 173,
+            "char_edits": 34,
+            "char_ref": 1064,
+            "duration_sec": 118.98,
+            "latency_mean_sec": 1.037645,
+            "latency_p50_sec": 1.101471,
+            "latency_p90_sec": 1.212481,
+            "rtf_mean": 0.087741,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "voxpopuli_lt": {
+            "rows": 10,
+            "wer": 0.12698412698412698,
+            "cer": 0.08873720136518772,
+            "word_edits": 24,
+            "word_ref": 189,
+            "char_edits": 104,
+            "char_ref": 1172,
+            "duration_sec": 87.239,
+            "latency_mean_sec": 0.939911,
+            "latency_p50_sec": 0.924137,
+            "latency_p90_sec": 1.197315,
+            "rtf_mean": 0.111421,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          }
+        },
+        "health": {
+          "ok": true,
+          "backend": "canary",
+          "model_id": "nvidia/canary-1b-v2",
+          "model_loaded": true,
+          "model_loaded_at": 1779821125.9658222,
+          "last_used_at": 1779821125.9658804,
+          "active_requests": 0,
+          "keep_warm_seconds": 0,
+          "unload_after_at": null,
+          "idle_seconds": 1689.1234271526337,
+          "language_mode": "fixed",
+          "language_detection_enabled": false,
+          "source_lang": "lt",
+          "target_lang": "lt",
+          "default_language": "lt",
+          "lid_service_url": "http://127.0.0.1:8890/transcribe",
+          "lid_min_audio_seconds": 2.0,
+          "live_partial_seconds": 1.0,
+          "live_partial_interval_seconds": 1.0,
+          "live_max_partial_audio_seconds": 30.0,
+          "live_language_lock_seconds": 5.0,
+          "live_language_lock_consecutive_detections": 2,
+          "canary_pnc": "yes",
+          "canary_itn": "yes",
+          "canary_batch_size": 1,
+          "canary_beam_size": 3,
+          "canary_len_pen": 0.0,
+          "canary_max_generation_delta": 50,
+          "canary_adapter_path": null,
+          "canary_adapter_name": null,
+          "canary_adapter_specs": [
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+              "name": "encoder:lt_encoder_match8_lr5e6"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+              "name": "encoder:lt_encoder_morph_resid_mha"
+            }
+          ],
+          "canary_adapter_strict": true,
+          "canary_extra_state_paths": [],
+          "canary_enabled_adapters": [
+            "lt_encoder_match8_lr5e6",
+            "lt_encoder_morph_resid_mha"
+          ],
+          "canary_adapter_module_names": [
+            "",
+            "encoder",
+            "transf_encoder",
+            "transf_decoder"
+          ],
+          "canary_adapter_parameter_summary": {
+            "enabled_adapter_names": [
+              "encoder:lt_encoder_match8_lr5e6",
+              "encoder:lt_encoder_morph_resid_mha"
+            ],
+            "adapters": [
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+                "name": "encoder:lt_encoder_match8_lr5e6",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_match8_lr5e6",
+                  "adapter_name": "lt_encoder_match8_lr5e6",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 589824,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 589824
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+                "name": "encoder:lt_encoder_morph_resid_mha",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_morph_resid_mha",
+                  "adapter_name": "lt_encoder_morph_resid_mha",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2196992,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2196992
+                }
+              }
+            ]
+          },
+          "canary_extra_model_state_summary": null,
+          "audio_preprocess_enabled": true,
+          "audio_preprocess_filter": "loudnorm=I=-23:TP=-2:LRA=11",
+          "audio_preprocess_only_rms_below": 0.055,
+          "audio_preprocess_strong_filter": "loudnorm=I=-18:TP=-1.5:LRA=11",
+          "audio_preprocess_strong_only_rms_below": 0.01,
+          "audio_preprocess_strong_only_crest_below": 9.0,
+          "audio_preprocess_live_partials": false,
+          "audio_preprocess_fail_open": true,
+          "audio_preprocess_ffmpeg": "ffmpeg",
+          "lt_year_abbrev_postprocess": true,
+          "lt_year_abbrev_min_year": 1800,
+          "lt_year_abbrev_max_year": 2099,
+          "lt_thousand_numeral_postprocess": false,
+          "lt_es_union_abbrev_postprocess": false,
+          "lt_roman_century_postprocess": false,
+          "lt_percent_abbrev_postprocess": false,
+          "lt_wifi_standard_postprocess": true,
+          "lt_wifi_band_postprocess": true,
+          "lt_proper_name_postprocess": false,
+          "lt_noor_hira_postprocess": false,
+          "lt_ryztingai_postprocess": false,
+          "lt_papludimiams_postprocess": false,
+          "lt_dam_pastacius_postprocess": false,
+          "lt_liaudies_instrumentu_postprocess": false,
+          "lt_cell_mutation_postprocess": false,
+          "lt_prekems_postprocess": false,
+          "lt_mature_middle_ages_postprocess": false,
+          "lt_dalelyciu_postprocess": false,
+          "lt_rip_current_postprocess": false,
+          "lt_singapore_pm_postprocess": false,
+          "lt_trump_erdogan_postprocess": false,
+          "lt_allenas_musashi_postprocess": false,
+          "lt_suomija_lakes_postprocess": false,
+          "preload_model": true,
+          "persistent_extract": true,
+          "extract_dir": "/home/dev/vibedictate/canary/cache/nemo-extracted/f821631928ca9b80",
+          "restore_timestamps_model": false,
+          "cuda_available": true,
+          "cuda_device": "NVIDIA GeForce RTX 3090"
+        }
+      },
+      "dictation": {
+        "rows": 30,
+        "wer": 0.1095890410958904,
+        "cer": 0.063003663003663,
+        "word_edits": 48,
+        "word_ref": 438,
+        "char_edits": 172,
+        "char_ref": 2730,
+        "duration_sec": 261.036,
+        "latency_mean_sec": 0.851288,
+        "latency_p50_sec": 0.835854,
+        "latency_p90_sec": 1.179362,
+        "rtf_mean": 0.102428,
+        "empty_hypotheses": 0,
+        "hallucination_like": 0,
+        "run_id": "20260526_221402_autoresearch_20260526-221333_external_dial_step50_gate30_control_v1_gate30-dicta",
+        "label": "autoresearch_20260526-221333_external_dial_step50_gate30_control_v1_gate30-dictation",
+        "created_at": "2026-05-26T19:14:28.516879+00:00",
+        "endpoint": "http://127.0.0.1:8765/v1/transcribe",
+        "request_pnc": "",
+        "request_itn": "",
+        "request_prompt": "",
+        "metric_profile": "strict",
+        "backend": "canary",
+        "model_id": "nvidia/canary-1b-v2",
+        "language_mode": "fixed",
+        "source_lang": "lt",
+        "target_lang": "lt",
+        "cuda_device": "NVIDIA GeForce RTX 3090",
+        "rows_ok": 30,
+        "rows_failed": 0,
+        "by_source": {
+          "common_voice_25": {
+            "rows": 10,
+            "wer": 0.15789473684210525,
+            "cer": 0.03386454183266932,
+            "word_edits": 12,
+            "word_ref": 76,
+            "char_edits": 17,
+            "char_ref": 502,
+            "duration_sec": 54.817,
+            "latency_mean_sec": 0.606932,
+            "latency_p50_sec": 0.612133,
+            "latency_p90_sec": 0.818069,
+            "rtf_mean": 0.110951,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "fleurs": {
+            "rows": 10,
+            "wer": 0.06936416184971098,
+            "cer": 0.048525214081826834,
+            "word_edits": 12,
+            "word_ref": 173,
+            "char_edits": 51,
+            "char_ref": 1051,
+            "duration_sec": 118.98,
+            "latency_mean_sec": 0.988769,
+            "latency_p50_sec": 1.076808,
+            "latency_p90_sec": 1.156129,
+            "rtf_mean": 0.083318,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "voxpopuli_lt": {
+            "rows": 10,
+            "wer": 0.12698412698412698,
+            "cer": 0.08836023789294817,
+            "word_edits": 24,
+            "word_ref": 189,
+            "char_edits": 104,
+            "char_ref": 1177,
+            "duration_sec": 87.239,
+            "latency_mean_sec": 0.958162,
+            "latency_p50_sec": 0.938355,
+            "latency_p90_sec": 1.250756,
+            "rtf_mean": 0.113014,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          }
+        },
+        "health": {
+          "ok": true,
+          "backend": "canary",
+          "model_id": "nvidia/canary-1b-v2",
+          "model_loaded": true,
+          "model_loaded_at": 1779821125.9658222,
+          "last_used_at": 1779822842.0420277,
+          "active_requests": 0,
+          "keep_warm_seconds": 0,
+          "unload_after_at": null,
+          "idle_seconds": 0.6849682331085205,
+          "language_mode": "fixed",
+          "language_detection_enabled": false,
+          "source_lang": "lt",
+          "target_lang": "lt",
+          "default_language": "lt",
+          "lid_service_url": "http://127.0.0.1:8890/transcribe",
+          "lid_min_audio_seconds": 2.0,
+          "live_partial_seconds": 1.0,
+          "live_partial_interval_seconds": 1.0,
+          "live_max_partial_audio_seconds": 30.0,
+          "live_language_lock_seconds": 5.0,
+          "live_language_lock_consecutive_detections": 2,
+          "canary_pnc": "yes",
+          "canary_itn": "yes",
+          "canary_batch_size": 1,
+          "canary_beam_size": 3,
+          "canary_len_pen": 0.0,
+          "canary_max_generation_delta": 50,
+          "canary_adapter_path": null,
+          "canary_adapter_name": null,
+          "canary_adapter_specs": [
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+              "name": "encoder:lt_encoder_match8_lr5e6"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+              "name": "encoder:lt_encoder_morph_resid_mha"
+            }
+          ],
+          "canary_adapter_strict": true,
+          "canary_extra_state_paths": [],
+          "canary_enabled_adapters": [
+            "lt_encoder_match8_lr5e6",
+            "lt_encoder_morph_resid_mha"
+          ],
+          "canary_adapter_module_names": [
+            "",
+            "encoder",
+            "transf_encoder",
+            "transf_decoder"
+          ],
+          "canary_adapter_parameter_summary": {
+            "enabled_adapter_names": [
+              "encoder:lt_encoder_match8_lr5e6",
+              "encoder:lt_encoder_morph_resid_mha"
+            ],
+            "adapters": [
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+                "name": "encoder:lt_encoder_match8_lr5e6",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_match8_lr5e6",
+                  "adapter_name": "lt_encoder_match8_lr5e6",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 589824,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 589824
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+                "name": "encoder:lt_encoder_morph_resid_mha",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_morph_resid_mha",
+                  "adapter_name": "lt_encoder_morph_resid_mha",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2196992,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2196992
+                }
+              }
+            ]
+          },
+          "canary_extra_model_state_summary": null,
+          "audio_preprocess_enabled": true,
+          "audio_preprocess_filter": "loudnorm=I=-23:TP=-2:LRA=11",
+          "audio_preprocess_only_rms_below": 0.055,
+          "audio_preprocess_strong_filter": "loudnorm=I=-18:TP=-1.5:LRA=11",
+          "audio_preprocess_strong_only_rms_below": 0.01,
+          "audio_preprocess_strong_only_crest_below": 9.0,
+          "audio_preprocess_live_partials": false,
+          "audio_preprocess_fail_open": true,
+          "audio_preprocess_ffmpeg": "ffmpeg",
+          "lt_year_abbrev_postprocess": true,
+          "lt_year_abbrev_min_year": 1800,
+          "lt_year_abbrev_max_year": 2099,
+          "lt_thousand_numeral_postprocess": false,
+          "lt_es_union_abbrev_postprocess": false,
+          "lt_roman_century_postprocess": false,
+          "lt_percent_abbrev_postprocess": false,
+          "lt_wifi_standard_postprocess": true,
+          "lt_wifi_band_postprocess": true,
+          "lt_proper_name_postprocess": false,
+          "lt_noor_hira_postprocess": false,
+          "lt_ryztingai_postprocess": false,
+          "lt_papludimiams_postprocess": false,
+          "lt_dam_pastacius_postprocess": false,
+          "lt_liaudies_instrumentu_postprocess": false,
+          "lt_cell_mutation_postprocess": false,
+          "lt_prekems_postprocess": false,
+          "lt_mature_middle_ages_postprocess": false,
+          "lt_dalelyciu_postprocess": false,
+          "lt_rip_current_postprocess": false,
+          "lt_singapore_pm_postprocess": false,
+          "lt_trump_erdogan_postprocess": false,
+          "lt_allenas_musashi_postprocess": false,
+          "lt_suomija_lakes_postprocess": false,
+          "preload_model": true,
+          "persistent_extract": true,
+          "extract_dir": "/home/dev/vibedictate/canary/cache/nemo-extracted/f821631928ca9b80",
+          "restore_timestamps_model": false,
+          "cuda_available": true,
+          "cuda_device": "NVIDIA GeForce RTX 3090"
+        }
+      }
+    },
+    "step50": {
+      "hearing": {
+        "rows": 30,
+        "wer": 0.11187214611872145,
+        "cer": 0.058522311631309436,
+        "word_edits": 49,
+        "word_ref": 438,
+        "char_edits": 160,
+        "char_ref": 2734,
+        "duration_sec": 261.036,
+        "latency_mean_sec": 0.912115,
+        "latency_p50_sec": 0.920945,
+        "latency_p90_sec": 1.240573,
+        "rtf_mean": 0.111885,
+        "empty_hypotheses": 0,
+        "hallucination_like": 0,
+        "run_id": "20260526_221536_autoresearch_20260526-221535_external_dial_step50_gate30_eval_loaded_v1_gate30-h",
+        "label": "autoresearch_20260526-221535_external_dial_step50_gate30_eval_loaded_v1_gate30-hearing",
+        "created_at": "2026-05-26T19:16:03.818535+00:00",
+        "endpoint": "http://127.0.0.1:8765/v1/transcribe",
+        "request_pnc": "",
+        "request_itn": "",
+        "request_prompt": "",
+        "metric_profile": "hearing",
+        "backend": "canary",
+        "model_id": "nvidia/canary-1b-v2",
+        "language_mode": "fixed",
+        "source_lang": "lt",
+        "target_lang": "lt",
+        "cuda_device": "NVIDIA GeForce RTX 3090",
+        "rows_ok": 30,
+        "rows_failed": 0,
+        "by_source": {
+          "common_voice_25": {
+            "rows": 10,
+            "wer": 0.15789473684210525,
+            "cer": 0.03413654618473896,
+            "word_edits": 12,
+            "word_ref": 76,
+            "char_edits": 17,
+            "char_ref": 498,
+            "duration_sec": 54.817,
+            "latency_mean_sec": 0.711615,
+            "latency_p50_sec": 0.677412,
+            "latency_p90_sec": 0.946813,
+            "rtf_mean": 0.131223,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "fleurs": {
+            "rows": 10,
+            "wer": 0.06936416184971098,
+            "cer": 0.03289473684210526,
+            "word_edits": 12,
+            "word_ref": 173,
+            "char_edits": 35,
+            "char_ref": 1064,
+            "duration_sec": 118.98,
+            "latency_mean_sec": 1.0316,
+            "latency_p50_sec": 1.040122,
+            "latency_p90_sec": 1.188865,
+            "rtf_mean": 0.086972,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "voxpopuli_lt": {
+            "rows": 10,
+            "wer": 0.13227513227513227,
+            "cer": 0.09215017064846416,
+            "word_edits": 25,
+            "word_ref": 189,
+            "char_edits": 108,
+            "char_ref": 1172,
+            "duration_sec": 87.239,
+            "latency_mean_sec": 0.993129,
+            "latency_p50_sec": 1.002092,
+            "latency_p90_sec": 1.245261,
+            "rtf_mean": 0.11746,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          }
+        },
+        "health": {
+          "ok": true,
+          "backend": "canary",
+          "model_id": "nvidia/canary-1b-v2",
+          "model_loaded": true,
+          "model_loaded_at": 1779822904.0454917,
+          "last_used_at": 1779822904.0455635,
+          "active_requests": 0,
+          "keep_warm_seconds": 0,
+          "unload_after_at": null,
+          "idle_seconds": 32.13543128967285,
+          "language_mode": "fixed",
+          "language_detection_enabled": false,
+          "source_lang": "lt",
+          "target_lang": "lt",
+          "default_language": "lt",
+          "lid_service_url": "http://127.0.0.1:8890/transcribe",
+          "lid_min_audio_seconds": 2.0,
+          "live_partial_seconds": 1.0,
+          "live_partial_interval_seconds": 1.0,
+          "live_max_partial_audio_seconds": 30.0,
+          "live_language_lock_seconds": 5.0,
+          "live_language_lock_consecutive_detections": 2,
+          "canary_pnc": "yes",
+          "canary_itn": "yes",
+          "canary_batch_size": 1,
+          "canary_beam_size": 3,
+          "canary_len_pen": 0.0,
+          "canary_max_generation_delta": 50,
+          "canary_adapter_path": null,
+          "canary_adapter_name": null,
+          "canary_adapter_specs": [
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+              "name": "encoder:lt_encoder_match8_lr5e6"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+              "name": "encoder:lt_encoder_morph_resid_mha"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_step000050.pt",
+              "name": "encoder:lt_external_dial_protected_replay_v1"
+            }
+          ],
+          "canary_adapter_strict": true,
+          "canary_extra_state_paths": [
+            "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_step000050.pt"
+          ],
+          "canary_enabled_adapters": [
+            "lt_encoder_match8_lr5e6",
+            "lt_encoder_morph_resid_mha",
+            "lt_external_dial_protected_replay_v1"
+          ],
+          "canary_adapter_module_names": [
+            "",
+            "encoder",
+            "transf_encoder",
+            "transf_decoder"
+          ],
+          "canary_adapter_parameter_summary": {
+            "enabled_adapter_names": [
+              "encoder:lt_encoder_match8_lr5e6",
+              "encoder:lt_encoder_morph_resid_mha",
+              "encoder:lt_external_dial_protected_replay_v1"
+            ],
+            "adapters": [
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+                "name": "encoder:lt_encoder_match8_lr5e6",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_match8_lr5e6",
+                  "adapter_name": "lt_encoder_match8_lr5e6",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 589824,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 589824
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+                "name": "encoder:lt_encoder_morph_resid_mha",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_morph_resid_mha",
+                  "adapter_name": "lt_encoder_morph_resid_mha",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2196992,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2196992
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_step000050.pt",
+                "name": "encoder:lt_external_dial_protected_replay_v1",
+                "summary": {
+                  "requested_name": "encoder:lt_external_dial_protected_replay_v1",
+                  "adapter_name": "lt_external_dial_protected_replay_v1",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2162688,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2162688
+                }
+              }
+            ]
+          },
+          "canary_extra_model_state_summary": {
+            "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_step000050.pt",
+            "params": 440,
+            "elements": 202899840,
+            "examples": [
+              "encoder.layers.24.norm_feed_forward1.weight",
+              "encoder.layers.24.norm_feed_forward1.bias",
+              "encoder.layers.24.feed_forward1.linear1.weight",
+              "encoder.layers.24.feed_forward1.linear1.bias",
+              "encoder.layers.24.feed_forward1.linear2.weight",
+              "encoder.layers.24.feed_forward1.linear2.bias",
+              "encoder.layers.24.norm_conv.weight",
+              "encoder.layers.24.norm_conv.bias",
+              "encoder.layers.24.conv.pointwise_conv1.weight",
+              "encoder.layers.24.conv.pointwise_conv1.bias",
+              "encoder.layers.24.conv.depthwise_conv.weight",
+              "encoder.layers.24.conv.depthwise_conv.bias",
+              "encoder.layers.24.conv.batch_norm.weight",
+              "encoder.layers.24.conv.batch_norm.bias",
+              "encoder.layers.24.conv.pointwise_conv2.weight",
+              "encoder.layers.24.conv.pointwise_conv2.bias",
+              "encoder.layers.24.norm_self_att.weight",
+              "encoder.layers.24.norm_self_att.bias",
+              "encoder.layers.24.self_attn.pos_bias_u",
+              "encoder.layers.24.self_attn.pos_bias_v"
+            ],
+            "metadata": {
+              "step": 50,
+              "trainable_param_regex": [
+                "^encoder\\.layers\\.(24|25|26|27|28|29|30|31)\\."
+              ],
+              "adapter_path": "outputs/external_dial_protected_replay_canary_v1/encoder_lt_external_dial_protected_replay_v1_step000050.pt"
+            }
+          },
+          "audio_preprocess_enabled": true,
+          "audio_preprocess_filter": "loudnorm=I=-23:TP=-2:LRA=11",
+          "audio_preprocess_only_rms_below": 0.055,
+          "audio_preprocess_strong_filter": "loudnorm=I=-18:TP=-1.5:LRA=11",
+          "audio_preprocess_strong_only_rms_below": 0.01,
+          "audio_preprocess_strong_only_crest_below": 9.0,
+          "audio_preprocess_live_partials": false,
+          "audio_preprocess_fail_open": true,
+          "audio_preprocess_ffmpeg": "ffmpeg",
+          "lt_year_abbrev_postprocess": true,
+          "lt_year_abbrev_min_year": 1800,
+          "lt_year_abbrev_max_year": 2099,
+          "lt_thousand_numeral_postprocess": false,
+          "lt_es_union_abbrev_postprocess": false,
+          "lt_roman_century_postprocess": false,
+          "lt_percent_abbrev_postprocess": false,
+          "lt_wifi_standard_postprocess": true,
+          "lt_wifi_band_postprocess": true,
+          "lt_proper_name_postprocess": false,
+          "lt_noor_hira_postprocess": false,
+          "lt_ryztingai_postprocess": false,
+          "lt_papludimiams_postprocess": false,
+          "lt_dam_pastacius_postprocess": false,
+          "lt_liaudies_instrumentu_postprocess": false,
+          "lt_cell_mutation_postprocess": false,
+          "lt_prekems_postprocess": false,
+          "lt_mature_middle_ages_postprocess": false,
+          "lt_dalelyciu_postprocess": false,
+          "lt_rip_current_postprocess": false,
+          "lt_singapore_pm_postprocess": false,
+          "lt_trump_erdogan_postprocess": false,
+          "lt_allenas_musashi_postprocess": false,
+          "lt_suomija_lakes_postprocess": false,
+          "preload_model": true,
+          "persistent_extract": true,
+          "extract_dir": "/home/dev/vibedictate/canary/cache/nemo-extracted/f821631928ca9b80",
+          "restore_timestamps_model": false,
+          "cuda_available": true,
+          "cuda_device": "NVIDIA GeForce RTX 3090"
+        }
+      },
+      "dictation": {
+        "rows": 30,
+        "wer": 0.1141552511415525,
+        "cer": 0.06483516483516484,
+        "word_edits": 50,
+        "word_ref": 438,
+        "char_edits": 177,
+        "char_ref": 2730,
+        "duration_sec": 261.036,
+        "latency_mean_sec": 0.884116,
+        "latency_p50_sec": 0.863371,
+        "latency_p90_sec": 1.230307,
+        "rtf_mean": 0.107162,
+        "empty_hypotheses": 0,
+        "hallucination_like": 0,
+        "run_id": "20260526_221604_autoresearch_20260526-221535_external_dial_step50_gate30_eval_loaded_v1_gate30-d",
+        "label": "autoresearch_20260526-221535_external_dial_step50_gate30_eval_loaded_v1_gate30-dictation",
+        "created_at": "2026-05-26T19:16:31.177449+00:00",
+        "endpoint": "http://127.0.0.1:8765/v1/transcribe",
+        "request_pnc": "",
+        "request_itn": "",
+        "request_prompt": "",
+        "metric_profile": "strict",
+        "backend": "canary",
+        "model_id": "nvidia/canary-1b-v2",
+        "language_mode": "fixed",
+        "source_lang": "lt",
+        "target_lang": "lt",
+        "cuda_device": "NVIDIA GeForce RTX 3090",
+        "rows_ok": 30,
+        "rows_failed": 0,
+        "by_source": {
+          "common_voice_25": {
+            "rows": 10,
+            "wer": 0.15789473684210525,
+            "cer": 0.03386454183266932,
+            "word_edits": 12,
+            "word_ref": 76,
+            "char_edits": 17,
+            "char_ref": 502,
+            "duration_sec": 54.817,
+            "latency_mean_sec": 0.626029,
+            "latency_p50_sec": 0.623261,
+            "latency_p90_sec": 0.778893,
+            "rtf_mean": 0.1174,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "fleurs": {
+            "rows": 10,
+            "wer": 0.07514450867052024,
+            "cer": 0.049476688867745006,
+            "word_edits": 13,
+            "word_ref": 173,
+            "char_edits": 52,
+            "char_ref": 1051,
+            "duration_sec": 118.98,
+            "latency_mean_sec": 1.047002,
+            "latency_p50_sec": 1.100411,
+            "latency_p90_sec": 1.230307,
+            "rtf_mean": 0.088017,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "voxpopuli_lt": {
+            "rows": 10,
+            "wer": 0.13227513227513227,
+            "cer": 0.09175870858113849,
+            "word_edits": 25,
+            "word_ref": 189,
+            "char_edits": 108,
+            "char_ref": 1177,
+            "duration_sec": 87.239,
+            "latency_mean_sec": 0.979317,
+            "latency_p50_sec": 0.968514,
+            "latency_p90_sec": 1.266202,
+            "rtf_mean": 0.116068,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          }
+        },
+        "health": {
+          "ok": true,
+          "backend": "canary",
+          "model_id": "nvidia/canary-1b-v2",
+          "model_loaded": true,
+          "model_loaded_at": 1779822904.0454917,
+          "last_used_at": 1779822963.8066378,
+          "active_requests": 0,
+          "keep_warm_seconds": 0,
+          "unload_after_at": null,
+          "idle_seconds": 0.5792546272277832,
+          "language_mode": "fixed",
+          "language_detection_enabled": false,
+          "source_lang": "lt",
+          "target_lang": "lt",
+          "default_language": "lt",
+          "lid_service_url": "http://127.0.0.1:8890/transcribe",
+          "lid_min_audio_seconds": 2.0,
+          "live_partial_seconds": 1.0,
+          "live_partial_interval_seconds": 1.0,
+          "live_max_partial_audio_seconds": 30.0,
+          "live_language_lock_seconds": 5.0,
+          "live_language_lock_consecutive_detections": 2,
+          "canary_pnc": "yes",
+          "canary_itn": "yes",
+          "canary_batch_size": 1,
+          "canary_beam_size": 3,
+          "canary_len_pen": 0.0,
+          "canary_max_generation_delta": 50,
+          "canary_adapter_path": null,
+          "canary_adapter_name": null,
+          "canary_adapter_specs": [
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+              "name": "encoder:lt_encoder_match8_lr5e6"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+              "name": "encoder:lt_encoder_morph_resid_mha"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_step000050.pt",
+              "name": "encoder:lt_external_dial_protected_replay_v1"
+            }
+          ],
+          "canary_adapter_strict": true,
+          "canary_extra_state_paths": [
+            "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_step000050.pt"
+          ],
+          "canary_enabled_adapters": [
+            "lt_encoder_match8_lr5e6",
+            "lt_encoder_morph_resid_mha",
+            "lt_external_dial_protected_replay_v1"
+          ],
+          "canary_adapter_module_names": [
+            "",
+            "encoder",
+            "transf_encoder",
+            "transf_decoder"
+          ],
+          "canary_adapter_parameter_summary": {
+            "enabled_adapter_names": [
+              "encoder:lt_encoder_match8_lr5e6",
+              "encoder:lt_encoder_morph_resid_mha",
+              "encoder:lt_external_dial_protected_replay_v1"
+            ],
+            "adapters": [
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+                "name": "encoder:lt_encoder_match8_lr5e6",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_match8_lr5e6",
+                  "adapter_name": "lt_encoder_match8_lr5e6",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 589824,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 589824
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+                "name": "encoder:lt_encoder_morph_resid_mha",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_morph_resid_mha",
+                  "adapter_name": "lt_encoder_morph_resid_mha",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2196992,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2196992
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_step000050.pt",
+                "name": "encoder:lt_external_dial_protected_replay_v1",
+                "summary": {
+                  "requested_name": "encoder:lt_external_dial_protected_replay_v1",
+                  "adapter_name": "lt_external_dial_protected_replay_v1",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2162688,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2162688
+                }
+              }
+            ]
+          },
+          "canary_extra_model_state_summary": {
+            "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_step000050.pt",
+            "params": 440,
+            "elements": 202899840,
+            "examples": [
+              "encoder.layers.24.norm_feed_forward1.weight",
+              "encoder.layers.24.norm_feed_forward1.bias",
+              "encoder.layers.24.feed_forward1.linear1.weight",
+              "encoder.layers.24.feed_forward1.linear1.bias",
+              "encoder.layers.24.feed_forward1.linear2.weight",
+              "encoder.layers.24.feed_forward1.linear2.bias",
+              "encoder.layers.24.norm_conv.weight",
+              "encoder.layers.24.norm_conv.bias",
+              "encoder.layers.24.conv.pointwise_conv1.weight",
+              "encoder.layers.24.conv.pointwise_conv1.bias",
+              "encoder.layers.24.conv.depthwise_conv.weight",
+              "encoder.layers.24.conv.depthwise_conv.bias",
+              "encoder.layers.24.conv.batch_norm.weight",
+              "encoder.layers.24.conv.batch_norm.bias",
+              "encoder.layers.24.conv.pointwise_conv2.weight",
+              "encoder.layers.24.conv.pointwise_conv2.bias",
+              "encoder.layers.24.norm_self_att.weight",
+              "encoder.layers.24.norm_self_att.bias",
+              "encoder.layers.24.self_attn.pos_bias_u",
+              "encoder.layers.24.self_attn.pos_bias_v"
+            ],
+            "metadata": {
+              "step": 50,
+              "trainable_param_regex": [
+                "^encoder\\.layers\\.(24|25|26|27|28|29|30|31)\\."
+              ],
+              "adapter_path": "outputs/external_dial_protected_replay_canary_v1/encoder_lt_external_dial_protected_replay_v1_step000050.pt"
+            }
+          },
+          "audio_preprocess_enabled": true,
+          "audio_preprocess_filter": "loudnorm=I=-23:TP=-2:LRA=11",
+          "audio_preprocess_only_rms_below": 0.055,
+          "audio_preprocess_strong_filter": "loudnorm=I=-18:TP=-1.5:LRA=11",
+          "audio_preprocess_strong_only_rms_below": 0.01,
+          "audio_preprocess_strong_only_crest_below": 9.0,
+          "audio_preprocess_live_partials": false,
+          "audio_preprocess_fail_open": true,
+          "audio_preprocess_ffmpeg": "ffmpeg",
+          "lt_year_abbrev_postprocess": true,
+          "lt_year_abbrev_min_year": 1800,
+          "lt_year_abbrev_max_year": 2099,
+          "lt_thousand_numeral_postprocess": false,
+          "lt_es_union_abbrev_postprocess": false,
+          "lt_roman_century_postprocess": false,
+          "lt_percent_abbrev_postprocess": false,
+          "lt_wifi_standard_postprocess": true,
+          "lt_wifi_band_postprocess": true,
+          "lt_proper_name_postprocess": false,
+          "lt_noor_hira_postprocess": false,
+          "lt_ryztingai_postprocess": false,
+          "lt_papludimiams_postprocess": false,
+          "lt_dam_pastacius_postprocess": false,
+          "lt_liaudies_instrumentu_postprocess": false,
+          "lt_cell_mutation_postprocess": false,
+          "lt_prekems_postprocess": false,
+          "lt_mature_middle_ages_postprocess": false,
+          "lt_dalelyciu_postprocess": false,
+          "lt_rip_current_postprocess": false,
+          "lt_singapore_pm_postprocess": false,
+          "lt_trump_erdogan_postprocess": false,
+          "lt_allenas_musashi_postprocess": false,
+          "lt_suomija_lakes_postprocess": false,
+          "preload_model": true,
+          "persistent_extract": true,
+          "extract_dir": "/home/dev/vibedictate/canary/cache/nemo-extracted/f821631928ca9b80",
+          "restore_timestamps_model": false,
+          "cuda_available": true,
+          "cuda_device": "NVIDIA GeForce RTX 3090"
+        }
+      }
+    },
+    "step300": {
+      "hearing": {
+        "rows": 30,
+        "wer": 0.11643835616438356,
+        "cer": 0.05669348939283102,
+        "word_edits": 51,
+        "word_ref": 438,
+        "char_edits": 155,
+        "char_ref": 2734,
+        "duration_sec": 261.036,
+        "latency_mean_sec": 0.916988,
+        "latency_p50_sec": 0.887833,
+        "latency_p90_sec": 1.244911,
+        "rtf_mean": 0.11269,
+        "empty_hypotheses": 0,
+        "hallucination_like": 0,
+        "run_id": "20260526_214409_autoresearch_20260526-214408_external_dial_returned_step300_gate30_eval_loaded_v",
+        "label": "autoresearch_20260526-214408_external_dial_returned_step300_gate30_eval_loaded_v1_gate30-hearing",
+        "created_at": "2026-05-26T18:44:37.718974+00:00",
+        "endpoint": "http://127.0.0.1:8765/v1/transcribe",
+        "request_pnc": "",
+        "request_itn": "",
+        "request_prompt": "",
+        "metric_profile": "hearing",
+        "backend": "canary",
+        "model_id": "nvidia/canary-1b-v2",
+        "language_mode": "fixed",
+        "source_lang": "lt",
+        "target_lang": "lt",
+        "cuda_device": "NVIDIA GeForce RTX 3090",
+        "rows_ok": 30,
+        "rows_failed": 0,
+        "by_source": {
+          "common_voice_25": {
+            "rows": 10,
+            "wer": 0.15789473684210525,
+            "cer": 0.030120481927710843,
+            "word_edits": 12,
+            "word_ref": 76,
+            "char_edits": 15,
+            "char_ref": 498,
+            "duration_sec": 54.817,
+            "latency_mean_sec": 0.729502,
+            "latency_p50_sec": 0.711411,
+            "latency_p90_sec": 0.910585,
+            "rtf_mean": 0.134816,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "fleurs": {
+            "rows": 10,
+            "wer": 0.08092485549132948,
+            "cer": 0.03007518796992481,
+            "word_edits": 14,
+            "word_ref": 173,
+            "char_edits": 32,
+            "char_ref": 1064,
+            "duration_sec": 118.98,
+            "latency_mean_sec": 1.042052,
+            "latency_p50_sec": 1.071296,
+            "latency_p90_sec": 1.244911,
+            "rtf_mean": 0.087698,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "voxpopuli_lt": {
+            "rows": 10,
+            "wer": 0.13227513227513227,
+            "cer": 0.09215017064846416,
+            "word_edits": 25,
+            "word_ref": 189,
+            "char_edits": 108,
+            "char_ref": 1172,
+            "duration_sec": 87.239,
+            "latency_mean_sec": 0.979409,
+            "latency_p50_sec": 0.967213,
+            "latency_p90_sec": 1.239008,
+            "rtf_mean": 0.115555,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          }
+        },
+        "health": {
+          "ok": true,
+          "backend": "canary",
+          "model_id": "nvidia/canary-1b-v2",
+          "model_loaded": true,
+          "model_loaded_at": 1779821016.0139477,
+          "last_used_at": 1779821016.0140524,
+          "active_requests": 0,
+          "keep_warm_seconds": 0,
+          "unload_after_at": null,
+          "idle_seconds": 33.928544998168945,
+          "language_mode": "fixed",
+          "language_detection_enabled": false,
+          "source_lang": "lt",
+          "target_lang": "lt",
+          "default_language": "lt",
+          "lid_service_url": "http://127.0.0.1:8890/transcribe",
+          "lid_min_audio_seconds": 2.0,
+          "live_partial_seconds": 1.0,
+          "live_partial_interval_seconds": 1.0,
+          "live_max_partial_audio_seconds": 30.0,
+          "live_language_lock_seconds": 5.0,
+          "live_language_lock_consecutive_detections": 2,
+          "canary_pnc": "yes",
+          "canary_itn": "yes",
+          "canary_batch_size": 1,
+          "canary_beam_size": 3,
+          "canary_len_pen": 0.0,
+          "canary_max_generation_delta": 50,
+          "canary_adapter_path": null,
+          "canary_adapter_name": null,
+          "canary_adapter_specs": [
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+              "name": "encoder:lt_encoder_match8_lr5e6"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+              "name": "encoder:lt_encoder_morph_resid_mha"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_final_step000300.pt",
+              "name": "encoder:lt_external_dial_protected_replay_v1"
+            }
+          ],
+          "canary_adapter_strict": true,
+          "canary_extra_state_paths": [
+            "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_final_step000300.pt"
+          ],
+          "canary_enabled_adapters": [
+            "lt_encoder_match8_lr5e6",
+            "lt_encoder_morph_resid_mha",
+            "lt_external_dial_protected_replay_v1"
+          ],
+          "canary_adapter_module_names": [
+            "",
+            "encoder",
+            "transf_encoder",
+            "transf_decoder"
+          ],
+          "canary_adapter_parameter_summary": {
+            "enabled_adapter_names": [
+              "encoder:lt_encoder_match8_lr5e6",
+              "encoder:lt_encoder_morph_resid_mha",
+              "encoder:lt_external_dial_protected_replay_v1"
+            ],
+            "adapters": [
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+                "name": "encoder:lt_encoder_match8_lr5e6",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_match8_lr5e6",
+                  "adapter_name": "lt_encoder_match8_lr5e6",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 589824,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 589824
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+                "name": "encoder:lt_encoder_morph_resid_mha",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_morph_resid_mha",
+                  "adapter_name": "lt_encoder_morph_resid_mha",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2196992,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2196992
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_final_step000300.pt",
+                "name": "encoder:lt_external_dial_protected_replay_v1",
+                "summary": {
+                  "requested_name": "encoder:lt_external_dial_protected_replay_v1",
+                  "adapter_name": "lt_external_dial_protected_replay_v1",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2162688,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2162688
+                }
+              }
+            ]
+          },
+          "canary_extra_model_state_summary": {
+            "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_final_step000300.pt",
+            "params": 440,
+            "elements": 202899840,
+            "examples": [
+              "encoder.layers.24.norm_feed_forward1.weight",
+              "encoder.layers.24.norm_feed_forward1.bias",
+              "encoder.layers.24.feed_forward1.linear1.weight",
+              "encoder.layers.24.feed_forward1.linear1.bias",
+              "encoder.layers.24.feed_forward1.linear2.weight",
+              "encoder.layers.24.feed_forward1.linear2.bias",
+              "encoder.layers.24.norm_conv.weight",
+              "encoder.layers.24.norm_conv.bias",
+              "encoder.layers.24.conv.pointwise_conv1.weight",
+              "encoder.layers.24.conv.pointwise_conv1.bias",
+              "encoder.layers.24.conv.depthwise_conv.weight",
+              "encoder.layers.24.conv.depthwise_conv.bias",
+              "encoder.layers.24.conv.batch_norm.weight",
+              "encoder.layers.24.conv.batch_norm.bias",
+              "encoder.layers.24.conv.pointwise_conv2.weight",
+              "encoder.layers.24.conv.pointwise_conv2.bias",
+              "encoder.layers.24.norm_self_att.weight",
+              "encoder.layers.24.norm_self_att.bias",
+              "encoder.layers.24.self_attn.pos_bias_u",
+              "encoder.layers.24.self_attn.pos_bias_v"
+            ],
+            "metadata": {
+              "step": 300,
+              "trainable_param_regex": [
+                "^encoder\\.layers\\.(24|25|26|27|28|29|30|31)\\."
+              ],
+              "adapter_path": "outputs/external_dial_protected_replay_canary_v1/encoder_lt_external_dial_protected_replay_v1_final_step000300.pt"
+            }
+          },
+          "audio_preprocess_enabled": true,
+          "audio_preprocess_filter": "loudnorm=I=-23:TP=-2:LRA=11",
+          "audio_preprocess_only_rms_below": 0.055,
+          "audio_preprocess_strong_filter": "loudnorm=I=-18:TP=-1.5:LRA=11",
+          "audio_preprocess_strong_only_rms_below": 0.01,
+          "audio_preprocess_strong_only_crest_below": 9.0,
+          "audio_preprocess_live_partials": false,
+          "audio_preprocess_fail_open": true,
+          "audio_preprocess_ffmpeg": "ffmpeg",
+          "lt_year_abbrev_postprocess": true,
+          "lt_year_abbrev_min_year": 1800,
+          "lt_year_abbrev_max_year": 2099,
+          "lt_thousand_numeral_postprocess": false,
+          "lt_es_union_abbrev_postprocess": false,
+          "lt_roman_century_postprocess": false,
+          "lt_percent_abbrev_postprocess": false,
+          "lt_wifi_standard_postprocess": true,
+          "lt_wifi_band_postprocess": true,
+          "lt_proper_name_postprocess": false,
+          "lt_noor_hira_postprocess": false,
+          "lt_ryztingai_postprocess": false,
+          "lt_papludimiams_postprocess": false,
+          "lt_dam_pastacius_postprocess": false,
+          "lt_liaudies_instrumentu_postprocess": false,
+          "lt_cell_mutation_postprocess": false,
+          "lt_prekems_postprocess": false,
+          "lt_mature_middle_ages_postprocess": false,
+          "lt_dalelyciu_postprocess": false,
+          "lt_rip_current_postprocess": false,
+          "lt_singapore_pm_postprocess": false,
+          "lt_trump_erdogan_postprocess": false,
+          "lt_allenas_musashi_postprocess": false,
+          "lt_suomija_lakes_postprocess": false,
+          "preload_model": true,
+          "persistent_extract": true,
+          "extract_dir": "/home/dev/vibedictate/canary/cache/nemo-extracted/f821631928ca9b80",
+          "restore_timestamps_model": false,
+          "cuda_available": true,
+          "cuda_device": "NVIDIA GeForce RTX 3090"
+        }
+      },
+      "dictation": {
+        "rows": 30,
+        "wer": 0.1187214611872146,
+        "cer": 0.063003663003663,
+        "word_edits": 52,
+        "word_ref": 438,
+        "char_edits": 172,
+        "char_ref": 2730,
+        "duration_sec": 261.036,
+        "latency_mean_sec": 0.873883,
+        "latency_p50_sec": 0.840084,
+        "latency_p90_sec": 1.219764,
+        "rtf_mean": 0.105744,
+        "empty_hypotheses": 0,
+        "hallucination_like": 0,
+        "run_id": "20260526_214438_autoresearch_20260526-214408_external_dial_returned_step300_gate30_eval_loaded_v",
+        "label": "autoresearch_20260526-214408_external_dial_returned_step300_gate30_eval_loaded_v1_gate30-dictation",
+        "created_at": "2026-05-26T18:45:04.768163+00:00",
+        "endpoint": "http://127.0.0.1:8765/v1/transcribe",
+        "request_pnc": "",
+        "request_itn": "",
+        "request_prompt": "",
+        "metric_profile": "strict",
+        "backend": "canary",
+        "model_id": "nvidia/canary-1b-v2",
+        "language_mode": "fixed",
+        "source_lang": "lt",
+        "target_lang": "lt",
+        "cuda_device": "NVIDIA GeForce RTX 3090",
+        "rows_ok": 30,
+        "rows_failed": 0,
+        "by_source": {
+          "common_voice_25": {
+            "rows": 10,
+            "wer": 0.15789473684210525,
+            "cer": 0.029880478087649404,
+            "word_edits": 12,
+            "word_ref": 76,
+            "char_edits": 15,
+            "char_ref": 502,
+            "duration_sec": 54.817,
+            "latency_mean_sec": 0.627144,
+            "latency_p50_sec": 0.629375,
+            "latency_p90_sec": 0.795859,
+            "rtf_mean": 0.116454,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "fleurs": {
+            "rows": 10,
+            "wer": 0.08670520231213873,
+            "cer": 0.046622264509990484,
+            "word_edits": 15,
+            "word_ref": 173,
+            "char_edits": 49,
+            "char_ref": 1051,
+            "duration_sec": 118.98,
+            "latency_mean_sec": 1.017082,
+            "latency_p50_sec": 1.049224,
+            "latency_p90_sec": 1.184888,
+            "rtf_mean": 0.085462,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          },
+          "voxpopuli_lt": {
+            "rows": 10,
+            "wer": 0.13227513227513227,
+            "cer": 0.09175870858113849,
+            "word_edits": 25,
+            "word_ref": 189,
+            "char_edits": 108,
+            "char_ref": 1177,
+            "duration_sec": 87.239,
+            "latency_mean_sec": 0.977424,
+            "latency_p50_sec": 0.972232,
+            "latency_p90_sec": 1.227013,
+            "rtf_mean": 0.115315,
+            "empty_hypotheses": 0,
+            "hallucination_like": 0
+          }
+        },
+        "health": {
+          "ok": true,
+          "backend": "canary",
+          "model_id": "nvidia/canary-1b-v2",
+          "model_loaded": true,
+          "model_loaded_at": 1779821016.0139477,
+          "last_used_at": 1779821077.7070725,
+          "active_requests": 0,
+          "keep_warm_seconds": 0,
+          "unload_after_at": null,
+          "idle_seconds": 0.588677167892456,
+          "language_mode": "fixed",
+          "language_detection_enabled": false,
+          "source_lang": "lt",
+          "target_lang": "lt",
+          "default_language": "lt",
+          "lid_service_url": "http://127.0.0.1:8890/transcribe",
+          "lid_min_audio_seconds": 2.0,
+          "live_partial_seconds": 1.0,
+          "live_partial_interval_seconds": 1.0,
+          "live_max_partial_audio_seconds": 30.0,
+          "live_language_lock_seconds": 5.0,
+          "live_language_lock_consecutive_detections": 2,
+          "canary_pnc": "yes",
+          "canary_itn": "yes",
+          "canary_batch_size": 1,
+          "canary_beam_size": 3,
+          "canary_len_pen": 0.0,
+          "canary_max_generation_delta": 50,
+          "canary_adapter_path": null,
+          "canary_adapter_name": null,
+          "canary_adapter_specs": [
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+              "name": "encoder:lt_encoder_match8_lr5e6"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+              "name": "encoder:lt_encoder_morph_resid_mha"
+            },
+            {
+              "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_final_step000300.pt",
+              "name": "encoder:lt_external_dial_protected_replay_v1"
+            }
+          ],
+          "canary_adapter_strict": true,
+          "canary_extra_state_paths": [
+            "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_final_step000300.pt"
+          ],
+          "canary_enabled_adapters": [
+            "lt_encoder_match8_lr5e6",
+            "lt_encoder_morph_resid_mha",
+            "lt_external_dial_protected_replay_v1"
+          ],
+          "canary_adapter_module_names": [
+            "",
+            "encoder",
+            "transf_encoder",
+            "transf_decoder"
+          ],
+          "canary_adapter_parameter_summary": {
+            "enabled_adapter_names": [
+              "encoder:lt_encoder_match8_lr5e6",
+              "encoder:lt_encoder_morph_resid_mha",
+              "encoder:lt_external_dial_protected_replay_v1"
+            ],
+            "adapters": [
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_encoder_full50_step3500_then_matched_large_bd96_lr2e6_20260507-035812/encoder_lt_encoder_match8_lr5e6_step000300.pt",
+                "name": "encoder:lt_encoder_match8_lr5e6",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_match8_lr5e6",
+                  "adapter_name": "lt_encoder_match8_lr5e6",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 589824,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 589824
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/canary_lt_morph5h_residual_mha_on_full50matchedlarge_lr1e6_bd64_steps300_20260507-135142/encoder_lt_encoder_morph_resid_mha_step000300.pt",
+                "name": "encoder:lt_encoder_morph_resid_mha",
+                "summary": {
+                  "requested_name": "encoder:lt_encoder_morph_resid_mha",
+                  "adapter_name": "lt_encoder_morph_resid_mha",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2196992,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2196992
+                }
+              },
+              {
+                "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_final_step000300.pt",
+                "name": "encoder:lt_external_dial_protected_replay_v1",
+                "summary": {
+                  "requested_name": "encoder:lt_external_dial_protected_replay_v1",
+                  "adapter_name": "lt_external_dial_protected_replay_v1",
+                  "module_name": "encoder",
+                  "module_names": [
+                    "encoder"
+                  ],
+                  "targets": {
+                    "encoder": {
+                      "hosts": 32,
+                      "params": 2162688,
+                      "examples": [
+                        "layers.0",
+                        "layers.1",
+                        "layers.2",
+                        "layers.3",
+                        "layers.4",
+                        "layers.5",
+                        "layers.6",
+                        "layers.7"
+                      ]
+                    }
+                  },
+                  "hosts": 32,
+                  "params": 2162688
+                }
+              }
+            ]
+          },
+          "canary_extra_model_state_summary": {
+            "path": "/mnt/e/VibeDictate/adapters/external_dial_protected_replay_canary_v1_returned/encoder_lt_external_dial_protected_replay_v1_extra_state_final_step000300.pt",
+            "params": 440,
+            "elements": 202899840,
+            "examples": [
+              "encoder.layers.24.norm_feed_forward1.weight",
+              "encoder.layers.24.norm_feed_forward1.bias",
+              "encoder.layers.24.feed_forward1.linear1.weight",
+              "encoder.layers.24.feed_forward1.linear1.bias",
+              "encoder.layers.24.feed_forward1.linear2.weight",
+              "encoder.layers.24.feed_forward1.linear2.bias",
+              "encoder.layers.24.norm_conv.weight",
+              "encoder.layers.24.norm_conv.bias",
+              "encoder.layers.24.conv.pointwise_conv1.weight",
+              "encoder.layers.24.conv.pointwise_conv1.bias",
+              "encoder.layers.24.conv.depthwise_conv.weight",
+              "encoder.layers.24.conv.depthwise_conv.bias",
+              "encoder.layers.24.conv.batch_norm.weight",
+              "encoder.layers.24.conv.batch_norm.bias",
+              "encoder.layers.24.conv.pointwise_conv2.weight",
+              "encoder.layers.24.conv.pointwise_conv2.bias",
+              "encoder.layers.24.norm_self_att.weight",
+              "encoder.layers.24.norm_self_att.bias",
+              "encoder.layers.24.self_attn.pos_bias_u",
+              "encoder.layers.24.self_attn.pos_bias_v"
+            ],
+            "metadata": {
+              "step": 300,
+              "trainable_param_regex": [
+                "^encoder\\.layers\\.(24|25|26|27|28|29|30|31)\\."
+              ],
+              "adapter_path": "outputs/external_dial_protected_replay_canary_v1/encoder_lt_external_dial_protected_replay_v1_final_step000300.pt"
+            }
+          },
+          "audio_preprocess_enabled": true,
+          "audio_preprocess_filter": "loudnorm=I=-23:TP=-2:LRA=11",
+          "audio_preprocess_only_rms_below": 0.055,
+          "audio_preprocess_strong_filter": "loudnorm=I=-18:TP=-1.5:LRA=11",
+          "audio_preprocess_strong_only_rms_below": 0.01,
+          "audio_preprocess_strong_only_crest_below": 9.0,
+          "audio_preprocess_live_partials": false,
+          "audio_preprocess_fail_open": true,
+          "audio_preprocess_ffmpeg": "ffmpeg",
+          "lt_year_abbrev_postprocess": true,
+          "lt_year_abbrev_min_year": 1800,
+          "lt_year_abbrev_max_year": 2099,
+          "lt_thousand_numeral_postprocess": false,
+          "lt_es_union_abbrev_postprocess": false,
+          "lt_roman_century_postprocess": false,
+          "lt_percent_abbrev_postprocess": false,
+          "lt_wifi_standard_postprocess": true,
+          "lt_wifi_band_postprocess": true,
+          "lt_proper_name_postprocess": false,
+          "lt_noor_hira_postprocess": false,
+          "lt_ryztingai_postprocess": false,
+          "lt_papludimiams_postprocess": false,
+          "lt_dam_pastacius_postprocess": false,
+          "lt_liaudies_instrumentu_postprocess": false,
+          "lt_cell_mutation_postprocess": false,
+          "lt_prekems_postprocess": false,
+          "lt_mature_middle_ages_postprocess": false,
+          "lt_dalelyciu_postprocess": false,
+          "lt_rip_current_postprocess": false,
+          "lt_singapore_pm_postprocess": false,
+          "lt_trump_erdogan_postprocess": false,
+          "lt_allenas_musashi_postprocess": false,
+          "lt_suomija_lakes_postprocess": false,
+          "preload_model": true,
+          "persistent_extract": true,
+          "extract_dir": "/home/dev/vibedictate/canary/cache/nemo-extracted/f821631928ca9b80",
+          "restore_timestamps_model": false,
+          "cuda_available": true,
+          "cuda_device": "NVIDIA GeForce RTX 3090"
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "cv25_common_voice_lt_23715864",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 5.832,
+      "audio": "assets/audio/cv25_common_voice_lt_23715864.wav",
+      "reference": "Tarp Luko ir Auroros užsimezga ypatingas ryšys.",
+      "control": {
+        "hypothesis": "Tarpuko ir auroros užsimesga ypatingas ryšys.",
+        "wer": 0.42857142857142855,
+        "cer": 0.05,
+        "word_edits": 3,
+        "char_edits": 2
+      },
+      "step50": {
+        "hypothesis": "Tarpuko ir auroros užsimesga ypatingas ryšys.",
+        "wer": 0.42857142857142855,
+        "cer": 0.05,
+        "word_edits": 3,
+        "char_edits": 2,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Tarpuko ir auroros užsimesga ypatingas ryšys.",
+        "wer": 0.42857142857142855,
+        "cer": 0.05,
+        "word_edits": 3,
+        "char_edits": 2,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23718394",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 5.329,
+      "audio": "assets/audio/cv25_common_voice_lt_23718394.wav",
+      "reference": "Į ketvirtfinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+      "control": {
+        "hypothesis": "Į ketvirtinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+        "wer": 0.1111111111111111,
+        "cer": 0.016666666666666666,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Į ketvirtinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+        "wer": 0.1111111111111111,
+        "cer": 0.016666666666666666,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Į ketvirtinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+        "wer": 0.1111111111111111,
+        "cer": 0.016666666666666666,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23720301",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 3.864,
+      "audio": "assets/audio/cv25_common_voice_lt_23720301.wav",
+      "reference": "Svarbiausi tyrimai iš geležies amžiaus.",
+      "control": {
+        "hypothesis": "Svarbiausi tyrimai iš geležies amžiaus.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Svarbiausi tyrimai iš geležies amžiaus.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Svarbiausi tyrimai iš geležies amžiaus.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23779365",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 3.576,
+      "audio": "assets/audio/cv25_common_voice_lt_23779365.wav",
+      "reference": "Situacija šalyje buvo sudėtinga.",
+      "control": {
+        "hypothesis": "Situacija šalyje buvo sudėtinga.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Situacija šalyje buvo sudėtinga.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Situacija šalyje buvo sudėtinga.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23781571",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 7.896,
+      "audio": "assets/audio/cv25_common_voice_lt_23781571.wav",
+      "reference": "Pranas Sližys tuo laiku mokytojavo ir vadovavo chorams Vilniaus miesto mokyklose.",
+      "control": {
+        "hypothesis": "Pranas Lyžys tuo laikomu kitojevo ir vadovavo chorams Vilniaus miesto mokyklose.",
+        "wer": 0.2727272727272727,
+        "cer": 0.08571428571428572,
+        "word_edits": 3,
+        "char_edits": 6
+      },
+      "step50": {
+        "hypothesis": "Pranas Lyžys tuo laikomu kitojevo ir vadovavo chorams Vilniaus miesto mokyklose.",
+        "wer": 0.2727272727272727,
+        "cer": 0.08571428571428572,
+        "word_edits": 3,
+        "char_edits": 6,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Pranas Lyžys tuo laikumo kitojevo ir vadovavo chorams Vilniaus miesto mokyklose.",
+        "wer": 0.2727272727272727,
+        "cer": 0.05714285714285714,
+        "word_edits": 3,
+        "char_edits": 4,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23783034",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 8.304,
+      "audio": "assets/audio/cv25_common_voice_lt_23783034.wav",
+      "reference": "Premijas įteikė Ministras Pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Steponavičius.",
+      "control": {
+        "hypothesis": "Premijas įteikė ministras pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Stepanavičius.",
+        "wer": 0.07692307692307693,
+        "cer": 0.010309278350515464,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Premijas įteikė ministras pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Stepanavičius.",
+        "wer": 0.07692307692307693,
+        "cer": 0.010309278350515464,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Premijas įteikė ministras pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Stepanavičius.",
+        "wer": 0.07692307692307693,
+        "cer": 0.010309278350515464,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23874957",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 6.552,
+      "audio": "assets/audio/cv25_common_voice_lt_23874957.wav",
+      "reference": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+      "control": {
+        "hypothesis": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_24587367",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 4.68,
+      "audio": "assets/audio/cv25_common_voice_lt_24587367.wav",
+      "reference": "Sirijos šiaurės rytų riba yra neapibrėžta.",
+      "control": {
+        "hypothesis": "Sirijos šiaurės rytų riba yra nepibriešta.",
+        "wer": 0.16666666666666666,
+        "cer": 0.1111111111111111,
+        "word_edits": 1,
+        "char_edits": 4
+      },
+      "step50": {
+        "hypothesis": "Sirijos šiaurės rytų riba yra nepibriešta.",
+        "wer": 0.16666666666666666,
+        "cer": 0.1111111111111111,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Sirijos šiaurės rytų riba yra nepibriešta.",
+        "wer": 0.16666666666666666,
+        "cer": 0.1111111111111111,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_25110896",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 4.608,
+      "audio": "assets/audio/cv25_common_voice_lt_25110896.wav",
+      "reference": "Tą kartą išsilaikė du sezonus.",
+      "control": {
+        "hypothesis": "Ta karta išsilaikė du sezonus.",
+        "wer": 0.4,
+        "cer": 0.08333333333333333,
+        "word_edits": 2,
+        "char_edits": 2
+      },
+      "step50": {
+        "hypothesis": "Ta karta išsilaikė du sezonus.",
+        "wer": 0.4,
+        "cer": 0.08333333333333333,
+        "word_edits": 2,
+        "char_edits": 2,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ta karta išsilaikė du sezonus.",
+        "wer": 0.4,
+        "cer": 0.08333333333333333,
+        "word_edits": 2,
+        "char_edits": 2,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_25111229",
+      "track": "hearing",
+      "source": "common_voice_25",
+      "duration_sec": 4.176,
+      "audio": "assets/audio/cv25_common_voice_lt_25111229.wav",
+      "reference": "Pagal klasikinę versiją Leda padėjo du kiaušinius.",
+      "control": {
+        "hypothesis": "Pagal klasikinę versiją ledą padėjo du kiaušinius.",
+        "wer": 0.14285714285714285,
+        "cer": 0.023809523809523808,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Pagal klasikinę versiją ledą padėjo du kiaušinius.",
+        "wer": 0.14285714285714285,
+        "cer": 0.023809523809523808,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Pagal klasikinę versiją ledą padėjo du kiaušinius.",
+        "wer": 0.14285714285714285,
+        "cer": 0.023809523809523808,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_10044311676931971895",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 12.36,
+      "audio": "assets/audio/fleurs_10044311676931971895.wav",
+      "reference": "Ryžtingai atstumkite vyrus ir nebijokite laikytis savo nuostatų (kultūrų skirtumai nereiškia, kad taip elgtis derama).",
+      "control": {
+        "hypothesis": "Ištingai atstumkite vyrus ir nebijokite laikytis savo nuostatų. Kultūrų skirtumai nereiškia, kad taip elgtis derama.",
+        "wer": 0.06666666666666667,
+        "cer": 0.03,
+        "word_edits": 1,
+        "char_edits": 3
+      },
+      "step50": {
+        "hypothesis": "Ištingai atstumkite vyrus ir nebijokite laikytis savo nuostatų. Kultūrų skirtumai nereiškia, kad taip elgtis derama.",
+        "wer": 0.06666666666666667,
+        "cer": 0.03,
+        "word_edits": 1,
+        "char_edits": 3,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ir ištingai atstumkite vyrus ir nebijokite laikytis savo nuostatų. Kultūrų skirtumai nereiškia, kad taip elgtis derama.",
+        "wer": 0.13333333333333333,
+        "cer": 0.03,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "fleurs_10127244403608260525",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 13.68,
+      "audio": "assets/audio/fleurs_10127244403608260525.wav",
+      "reference": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo respublika priešininkų, lyginant su 2008 m., padaugėjo 8 procentais.",
+      "control": {
+        "hypothesis": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo Respublika priešininkų lyginant su 2008 m. padaugėjo 8 procentais.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo Respublika priešininkų lyginant su 2008 m. padaugėjo 8 procentais.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo Respublika priešininkų lyginant su 2008 m. padaugėjo 8 procentais.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_1016030443404088766",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 10.74,
+      "audio": "assets/audio/fleurs_1016030443404088766.wav",
+      "reference": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius. Tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+      "control": {
+        "hypothesis": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius, tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius, tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Pabėgiai buvo sukurti gana seniai siekiant sutvirtinti bėgius, tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "fleurs_10211891191616024237",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 11.58,
+      "audio": "assets/audio/fleurs_10211891191616024237.wav",
+      "reference": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimiams, tapusiems laukinės gamtos buveine, susidaryti.",
+      "control": {
+        "hypothesis": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimėms, tapusiems laukinės gamtos buveine, susidaryti.",
+        "wer": 0.08333333333333333,
+        "cer": 0.021739130434782608,
+        "word_edits": 1,
+        "char_edits": 2
+      },
+      "step50": {
+        "hypothesis": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimėms, tapusiems laukinės gamtos buveinę, susidaryti.",
+        "wer": 0.16666666666666666,
+        "cer": 0.03260869565217391,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "worse"
+      },
+      "step300": {
+        "hypothesis": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimėms, tapusiems laukinės gamtos buveinę, susidaryti.",
+        "wer": 0.16666666666666666,
+        "cer": 0.03260869565217391,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "fleurs_10657118285888833355",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 12.78,
+      "audio": "assets/audio/fleurs_10657118285888833355.wav",
+      "reference": "Centrinė Bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip tūkstantį metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+      "control": {
+        "hypothesis": "Centrinė bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip tūkstantį metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Centrinė bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip tūkstantį metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Centrinė bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip tūkstantį metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_10683607897836413780",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 13.62,
+      "audio": "assets/audio/fleurs_10683607897836413780.wav",
+      "reference": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų. Jis dažnai lankydavosi „Noor“ (šviesos) kalno urve, kuris tapo žinomas kaip „Hira“, kad panirtų į apmąstymus.",
+      "control": {
+        "hypothesis": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų. Jis dažnai lankydavosi Nor šviesos kalno urve, kuris tapo žinomas kaip gyra, kad panirtų į apmąstymus.",
+        "wer": 0.08,
+        "cer": 0.020134228187919462,
+        "word_edits": 2,
+        "char_edits": 3
+      },
+      "step50": {
+        "hypothesis": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų. Jis dažnai lankydavosi Nor šviesos kalno urve, kuris tapo žinomas kaip gyra, kad panirtų į apmąstymus.",
+        "wer": 0.08,
+        "cer": 0.020134228187919462,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų, jis dažnai lankydavosi nor šviesos kalno urve, kuris tapo žinomas kaip gyra, kad panirtų į apmastymus.",
+        "wer": 0.12,
+        "cer": 0.026845637583892617,
+        "word_edits": 3,
+        "char_edits": 4,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "fleurs_10809590308665969964",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 12.0,
+      "audio": "assets/audio/fleurs_10809590308665969964.wav",
+      "reference": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą, esate visiškai izoliuoti.",
+      "control": {
+        "hypothesis": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą esate visiškai izoliuoti.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą esate visiškai izoliuoti.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą esate visiškai izoliuoti.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_1135061970268070063",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 9.6,
+      "audio": "assets/audio/fleurs_1135061970268070063.wav",
+      "reference": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+      "control": {
+        "hypothesis": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_11373730056448997779",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 12.9,
+      "audio": "assets/audio/fleurs_11373730056448997779.wav",
+      "reference": "XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis.",
+      "control": {
+        "hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
+        "wer": 0.35714285714285715,
+        "cer": 0.2839506172839506,
+        "word_edits": 5,
+        "char_edits": 23
+      },
+      "step50": {
+        "hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
+        "wer": 0.35714285714285715,
+        "cer": 0.2839506172839506,
+        "word_edits": 5,
+        "char_edits": 23,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dvidešimto amžiaus trečiame dešimtmetyje dauguma žmonių ir ištiksos tautos gyveno pacifizmo ir izoliavimo idėjomis.",
+        "wer": 0.35714285714285715,
+        "cer": 0.2345679012345679,
+        "word_edits": 5,
+        "char_edits": 19,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "fleurs_11395665186825593839",
+      "track": "hearing",
+      "source": "fleurs",
+      "duration_sec": 9.72,
+      "audio": "assets/audio/fleurs_11395665186825593839.wav",
+      "reference": "1963 m. pastačius užtvanką buvo sustabdyti sezoniniai potvyniai, paskleidžiantys nuosėdas visoje upėje.",
+      "control": {
+        "hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
+        "wer": 0.16666666666666666,
+        "cer": 0.03225806451612903,
+        "word_edits": 2,
+        "char_edits": 3
+      },
+      "step50": {
+        "hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
+        "wer": 0.16666666666666666,
+        "cer": 0.03225806451612903,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
+        "wer": 0.16666666666666666,
+        "cer": 0.03225806451612903,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 10.32,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1.wav",
+      "reference": "Ir antras dalykas jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba, ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią sumą, kurią jūs buvot minėjęs.",
+      "control": {
+        "hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
+        "wer": 0.2,
+        "cer": 0.1554054054054054,
+        "word_edits": 6,
+        "char_edits": 23
+      },
+      "step50": {
+        "hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
+        "wer": 0.2,
+        "cer": 0.1554054054054054,
+        "word_edits": 6,
+        "char_edits": 23,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
+        "wer": 0.2,
+        "cer": 0.1554054054054054,
+        "word_edits": 6,
+        "char_edits": 23,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 5.919,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6.wav",
+      "reference": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+      "control": {
+        "hypothesis": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 9.78,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7.wav",
+      "reference": "Rusija, žaisdama be kompromisų, gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+      "control": {
+        "hypothesis": "Sama be kompromisu gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+        "wer": 0.17647058823529413,
+        "cer": 0.08943089430894309,
+        "word_edits": 3,
+        "char_edits": 11
+      },
+      "step50": {
+        "hypothesis": "Sama be kompromisu gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+        "wer": 0.17647058823529413,
+        "cer": 0.08943089430894309,
+        "word_edits": 3,
+        "char_edits": 11,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dama be kompromisu gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+        "wer": 0.17647058823529413,
+        "cer": 0.08943089430894309,
+        "word_edits": 3,
+        "char_edits": 11,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 9.7,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0.wav",
+      "reference": "Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgiu ir smagu girdėti, kad Lietuva daug ką nustebino savo geru gerai organizuotu pirmininkavimu.",
+      "control": {
+        "hypothesis": "Ačiū pirmininkė. Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgių ir smagu girdėti, kad Lietuva daug ką nustebino savo geru.",
+        "wer": 0.2857142857142857,
+        "cer": 0.3488372093023256,
+        "word_edits": 6,
+        "char_edits": 45
+      },
+      "step50": {
+        "hypothesis": "Ačiū pirmininkė. Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgių ir smagu girdėti, kad Lietuva daug ką nustebino savo geru.",
+        "wer": 0.2857142857142857,
+        "cer": 0.3488372093023256,
+        "word_edits": 6,
+        "char_edits": 45,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ačiū pirmininkė. Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgių ir smagu girdėti, kad Lietuva daug ką nustebino savo geru.",
+        "wer": 0.2857142857142857,
+        "cer": 0.3488372093023256,
+        "word_edits": 6,
+        "char_edits": 45,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 9.76,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10.wav",
+      "reference": "Prieš 23 metus sausio 13 ąją Lietuvos žmonės stovėjo prie Parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+      "control": {
+        "hypothesis": "Prieš 23 metus sausio 13-ąją Lietuvo žmonės stovėjo prie parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+        "wer": 0.05263157894736842,
+        "cer": 0.01,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Prieš 23 metus sausio 13-ąją Lietuvo žmonės stovėjo prie parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+        "wer": 0.05263157894736842,
+        "cer": 0.01,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Prieš 23 metus sausio 13-ąją lietuvo žmonės stovėjo prie parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+        "wer": 0.05263157894736842,
+        "cer": 0.01,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 6.12,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12.wav",
+      "reference": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingu Lietuvos pirmininkavimu Europos Sąjungoje.",
+      "control": {
+        "hypothesis": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingų Lietuvos pirmininkavimų Europos Sąjungai.",
+        "wer": 0.2,
+        "cer": 0.052083333333333336,
+        "word_edits": 3,
+        "char_edits": 5
+      },
+      "step50": {
+        "hypothesis": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingų Lietuvos pirmininkavimų Europos Sąjungai.",
+        "wer": 0.2,
+        "cer": 0.052083333333333336,
+        "word_edits": 3,
+        "char_edits": 5,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingų Lietuvos pirmininkavimų Europos Sąjungai.",
+        "wer": 0.2,
+        "cer": 0.052083333333333336,
+        "word_edits": 3,
+        "char_edits": 5,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 12.86,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13.wav",
+      "reference": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos Parlamento nariams ir tikiuosi, kad turėsime ateityje daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+      "control": {
+        "hypothesis": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos parlamento nariams ir tikiuosi, kad turėsime tik jie daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+        "wer": 0.06666666666666667,
+        "cer": 0.02617801047120419,
+        "word_edits": 2,
+        "char_edits": 5
+      },
+      "step50": {
+        "hypothesis": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos parlamento nariams ir tikiuosi, kad turėsime tik jie daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+        "wer": 0.06666666666666667,
+        "cer": 0.02617801047120419,
+        "word_edits": 2,
+        "char_edits": 5,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos parlamento nariams ir tikiuosi, kad turėsime tik jie daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+        "wer": 0.06666666666666667,
+        "cer": 0.02617801047120419,
+        "word_edits": 2,
+        "char_edits": 5,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_2",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 5.52,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_2.wav",
+      "reference": "Vilniaus susitikimas buvo labai reikšmingas stiprinant ryšius su Rytų partnerystės šalimis.",
+      "control": {
+        "hypothesis": "Vilniaus susitikimas buvo labai reikšmingas stiprinant ryšius su rytų partnerystės šalimis.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Vilno susitikimas buvo labai reikšmingas stiprinant ryšius su rytų partnerystės šalimis.",
+        "wer": 0.09090909090909091,
+        "cer": 0.05,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "worse"
+      },
+      "step300": {
+        "hypothesis": "Vilno susitikimas buvo labai reikšmingas stiprinant ryšius su rytų partnerystės šalimis.",
+        "wer": 0.09090909090909091,
+        "cer": 0.05,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 6.52,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3.wav",
+      "reference": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+      "control": {
+        "hypothesis": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5",
+      "track": "hearing",
+      "source": "voxpopuli_lt",
+      "duration_sec": 10.74,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5.wav",
+      "reference": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, Europos Sąjungos Baltijos jūros strategija, Rytų kaimynystės politika.",
+      "control": {
+        "hypothesis": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, ES Baltijos jūros strategija, rytų kaiminystės politika.",
+        "wer": 0.15,
+        "cer": 0.09090909090909091,
+        "word_edits": 3,
+        "char_edits": 14
+      },
+      "step50": {
+        "hypothesis": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, ES Baltijos jūros strategija, rytų kaiminystės politika.",
+        "wer": 0.15,
+        "cer": 0.09090909090909091,
+        "word_edits": 3,
+        "char_edits": 14,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, ES Baltijos jūros strategija, rytų kaiminystės politika.",
+        "wer": 0.15,
+        "cer": 0.09090909090909091,
+        "word_edits": 3,
+        "char_edits": 14,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23715864",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 5.832,
+      "audio": "assets/audio/cv25_common_voice_lt_23715864.wav",
+      "reference": "Tarp Luko ir Auroros užsimezga ypatingas ryšys.",
+      "control": {
+        "hypothesis": "Tarpuko ir auroros užsimesga ypatingas ryšys.",
+        "wer": 0.42857142857142855,
+        "cer": 0.05,
+        "word_edits": 3,
+        "char_edits": 2
+      },
+      "step50": {
+        "hypothesis": "Tarpuko ir auroros užsimesga ypatingas ryšys.",
+        "wer": 0.42857142857142855,
+        "cer": 0.05,
+        "word_edits": 3,
+        "char_edits": 2,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Tarpuko ir auroros užsimesga ypatingas ryšys.",
+        "wer": 0.42857142857142855,
+        "cer": 0.05,
+        "word_edits": 3,
+        "char_edits": 2,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23718394",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 5.329,
+      "audio": "assets/audio/cv25_common_voice_lt_23718394.wav",
+      "reference": "Į ketvirtfinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+      "control": {
+        "hypothesis": "Į ketvirtinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+        "wer": 0.1111111111111111,
+        "cer": 0.016129032258064516,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Į ketvirtinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+        "wer": 0.1111111111111111,
+        "cer": 0.016129032258064516,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Į ketvirtinalius patenka po dvi geriausias kiekvienos grupės komandas.",
+        "wer": 0.1111111111111111,
+        "cer": 0.016129032258064516,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23720301",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 3.864,
+      "audio": "assets/audio/cv25_common_voice_lt_23720301.wav",
+      "reference": "Svarbiausi tyrimai iš geležies amžiaus.",
+      "control": {
+        "hypothesis": "Svarbiausi tyrimai iš geležies amžiaus.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Svarbiausi tyrimai iš geležies amžiaus.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Svarbiausi tyrimai iš geležies amžiaus.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23779365",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 3.576,
+      "audio": "assets/audio/cv25_common_voice_lt_23779365.wav",
+      "reference": "Situacija šalyje buvo sudėtinga.",
+      "control": {
+        "hypothesis": "Situacija šalyje buvo sudėtinga.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Situacija šalyje buvo sudėtinga.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Situacija šalyje buvo sudėtinga.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23781571",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 7.896,
+      "audio": "assets/audio/cv25_common_voice_lt_23781571.wav",
+      "reference": "Pranas Sližys tuo laiku mokytojavo ir vadovavo chorams Vilniaus miesto mokyklose.",
+      "control": {
+        "hypothesis": "Pranas Lyžys tuo laikomu kitojevo ir vadovavo chorams Vilniaus miesto mokyklose.",
+        "wer": 0.2727272727272727,
+        "cer": 0.08571428571428572,
+        "word_edits": 3,
+        "char_edits": 6
+      },
+      "step50": {
+        "hypothesis": "Pranas Lyžys tuo laikomu kitojevo ir vadovavo chorams Vilniaus miesto mokyklose.",
+        "wer": 0.2727272727272727,
+        "cer": 0.08571428571428572,
+        "word_edits": 3,
+        "char_edits": 6,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Pranas Lyžys tuo laikumo kitojevo ir vadovavo chorams Vilniaus miesto mokyklose.",
+        "wer": 0.2727272727272727,
+        "cer": 0.05714285714285714,
+        "word_edits": 3,
+        "char_edits": 4,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23783034",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 8.304,
+      "audio": "assets/audio/cv25_common_voice_lt_23783034.wav",
+      "reference": "Premijas įteikė Ministras Pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Steponavičius.",
+      "control": {
+        "hypothesis": "Premijas įteikė ministras pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Stepanavičius.",
+        "wer": 0.07692307692307693,
+        "cer": 0.010309278350515464,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Premijas įteikė ministras pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Stepanavičius.",
+        "wer": 0.07692307692307693,
+        "cer": 0.010309278350515464,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Premijas įteikė ministras pirmininkas Andrius Kubilius ir švietimo ir mokslo ministras Gintaras Stepanavičius.",
+        "wer": 0.07692307692307693,
+        "cer": 0.010309278350515464,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_23874957",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 6.552,
+      "audio": "assets/audio/cv25_common_voice_lt_23874957.wav",
+      "reference": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+      "control": {
+        "hypothesis": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Tokios virtuvės buvo naudojamos pamaitinti didelę keliaujančių žmonių grupę.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_24587367",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 4.68,
+      "audio": "assets/audio/cv25_common_voice_lt_24587367.wav",
+      "reference": "Sirijos šiaurės rytų riba yra neapibrėžta.",
+      "control": {
+        "hypothesis": "Sirijos šiaurės rytų riba yra nepibriešta.",
+        "wer": 0.16666666666666666,
+        "cer": 0.1111111111111111,
+        "word_edits": 1,
+        "char_edits": 4
+      },
+      "step50": {
+        "hypothesis": "Sirijos šiaurės rytų riba yra nepibriešta.",
+        "wer": 0.16666666666666666,
+        "cer": 0.1111111111111111,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Sirijos šiaurės rytų riba yra nepibriešta.",
+        "wer": 0.16666666666666666,
+        "cer": 0.1111111111111111,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_25110896",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 4.608,
+      "audio": "assets/audio/cv25_common_voice_lt_25110896.wav",
+      "reference": "Tą kartą išsilaikė du sezonus.",
+      "control": {
+        "hypothesis": "Ta karta išsilaikė du sezonus.",
+        "wer": 0.4,
+        "cer": 0.08,
+        "word_edits": 2,
+        "char_edits": 2
+      },
+      "step50": {
+        "hypothesis": "Ta karta išsilaikė du sezonus.",
+        "wer": 0.4,
+        "cer": 0.08,
+        "word_edits": 2,
+        "char_edits": 2,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ta karta išsilaikė du sezonus.",
+        "wer": 0.4,
+        "cer": 0.08,
+        "word_edits": 2,
+        "char_edits": 2,
+        "status": "same"
+      }
+    },
+    {
+      "id": "cv25_common_voice_lt_25111229",
+      "track": "dictation",
+      "source": "common_voice_25",
+      "duration_sec": 4.176,
+      "audio": "assets/audio/cv25_common_voice_lt_25111229.wav",
+      "reference": "Pagal klasikinę versiją Leda padėjo du kiaušinius.",
+      "control": {
+        "hypothesis": "Pagal klasikinę versiją ledą padėjo du kiaušinius.",
+        "wer": 0.14285714285714285,
+        "cer": 0.023255813953488372,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Pagal klasikinę versiją ledą padėjo du kiaušinius.",
+        "wer": 0.14285714285714285,
+        "cer": 0.023255813953488372,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Pagal klasikinę versiją ledą padėjo du kiaušinius.",
+        "wer": 0.14285714285714285,
+        "cer": 0.023255813953488372,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_10044311676931971895",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 12.36,
+      "audio": "assets/audio/fleurs_10044311676931971895.wav",
+      "reference": "Ryžtingai atstumkite vyrus ir nebijokite laikytis savo nuostatų (kultūrų skirtumai nereiškia, kad taip elgtis derama).",
+      "control": {
+        "hypothesis": "Ištingai atstumkite vyrus ir nebijokite laikytis savo nuostatų. Kultūrų skirtumai nereiškia, kad taip elgtis derama.",
+        "wer": 0.06666666666666667,
+        "cer": 0.03,
+        "word_edits": 1,
+        "char_edits": 3
+      },
+      "step50": {
+        "hypothesis": "Ištingai atstumkite vyrus ir nebijokite laikytis savo nuostatų. Kultūrų skirtumai nereiškia, kad taip elgtis derama.",
+        "wer": 0.06666666666666667,
+        "cer": 0.03,
+        "word_edits": 1,
+        "char_edits": 3,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ir ištingai atstumkite vyrus ir nebijokite laikytis savo nuostatų. Kultūrų skirtumai nereiškia, kad taip elgtis derama.",
+        "wer": 0.13333333333333333,
+        "cer": 0.03,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "fleurs_10127244403608260525",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 13.68,
+      "audio": "assets/audio/fleurs_10127244403608260525.wav",
+      "reference": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo respublika priešininkų, lyginant su 2008 m., padaugėjo 8 procentais.",
+      "control": {
+        "hypothesis": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo Respublika priešininkų lyginant su 2008 m. padaugėjo 8 procentais.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo Respublika priešininkų lyginant su 2008 m. padaugėjo 8 procentais.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dar prieš 2010 m. federacinius rinkimus apklausus 1400 žmonių paaiškėjo, kad Australijos tapimo Respublika priešininkų lyginant su 2008 m. padaugėjo 8 procentais.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_1016030443404088766",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 10.74,
+      "audio": "assets/audio/fleurs_1016030443404088766.wav",
+      "reference": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius. Tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+      "control": {
+        "hypothesis": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius, tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius, tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Pabėgiai buvo sukurti gana seniai siekiant sutvirtinti bėgius, tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "fleurs_10211891191616024237",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 11.58,
+      "audio": "assets/audio/fleurs_10211891191616024237.wav",
+      "reference": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimiams, tapusiems laukinės gamtos buveine, susidaryti.",
+      "control": {
+        "hypothesis": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimėms, tapusiems laukinės gamtos buveine, susidaryti.",
+        "wer": 0.08333333333333333,
+        "cer": 0.021739130434782608,
+        "word_edits": 1,
+        "char_edits": 2
+      },
+      "step50": {
+        "hypothesis": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimėms, tapusiems laukinės gamtos buveinę, susidaryti.",
+        "wer": 0.16666666666666666,
+        "cer": 0.03260869565217391,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "worse"
+      },
+      "step300": {
+        "hypothesis": "Nuosėdos buvo reikalingos smėlio seklumoms ir paplūdimėms, tapusiems laukinės gamtos buveinę, susidaryti.",
+        "wer": 0.16666666666666666,
+        "cer": 0.03260869565217391,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "fleurs_10657118285888833355",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 12.78,
+      "audio": "assets/audio/fleurs_10657118285888833355.wav",
+      "reference": "Centrinė Bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip 1000 metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+      "control": {
+        "hypothesis": "Centrinė bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip tūkstantį metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+        "wer": 0.041666666666666664,
+        "cer": 0.05921052631578947,
+        "word_edits": 1,
+        "char_edits": 9
+      },
+      "step50": {
+        "hypothesis": "Centrinė bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip tūkstantį metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+        "wer": 0.041666666666666664,
+        "cer": 0.05921052631578947,
+        "word_edits": 1,
+        "char_edits": 9,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Centrinė bažnyčios valdžia buvo įsikūrusi Romoje ilgiau kaip tūkstantį metų ir tokia galios bei pinigų koncentracija daugelį privertė užduoti klausimą, ar laikomasi tokios doktrinos.",
+        "wer": 0.041666666666666664,
+        "cer": 0.05921052631578947,
+        "word_edits": 1,
+        "char_edits": 9,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_10683607897836413780",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 13.62,
+      "audio": "assets/audio/fleurs_10683607897836413780.wav",
+      "reference": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų. Jis dažnai lankydavosi „Noor“ (šviesos) kalno urve, kuris tapo žinomas kaip „Hira“, kad panirtų į apmąstymus.",
+      "control": {
+        "hypothesis": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų. Jis dažnai lankydavosi Nor šviesos kalno urve, kuris tapo žinomas kaip gyra, kad panirtų į apmąstymus.",
+        "wer": 0.08,
+        "cer": 0.020134228187919462,
+        "word_edits": 2,
+        "char_edits": 3
+      },
+      "step50": {
+        "hypothesis": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų. Jis dažnai lankydavosi Nor šviesos kalno urve, kuris tapo žinomas kaip gyra, kad panirtų į apmąstymus.",
+        "wer": 0.08,
+        "cer": 0.020134228187919462,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Mahometas labai domėjosi dalykais, glūdinčiais už kasdienio gyvenimo ribų, jis dažnai lankydavosi nor šviesos kalno urve, kuris tapo žinomas kaip gyra, kad panirtų į apmastymus.",
+        "wer": 0.12,
+        "cer": 0.026845637583892617,
+        "word_edits": 3,
+        "char_edits": 4,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "fleurs_10809590308665969964",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 12.0,
+      "audio": "assets/audio/fleurs_10809590308665969964.wav",
+      "reference": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą, esate visiškai izoliuoti.",
+      "control": {
+        "hypothesis": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą esate visiškai izoliuoti.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą esate visiškai izoliuoti.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Net jei žinotumėte, kad toks urvas yra, jį rasti visai nelengva. Patekę į urvą esate visiškai izoliuoti.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_1135061970268070063",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 9.6,
+      "audio": "assets/audio/fleurs_1135061970268070063.wav",
+      "reference": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+      "control": {
+        "hypothesis": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "fleurs_11373730056448997779",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 12.9,
+      "audio": "assets/audio/fleurs_11373730056448997779.wav",
+      "reference": "XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis.",
+      "control": {
+        "hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
+        "wer": 0.35714285714285715,
+        "cer": 0.38271604938271603,
+        "word_edits": 5,
+        "char_edits": 31
+      },
+      "step50": {
+        "hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
+        "wer": 0.35714285714285715,
+        "cer": 0.38271604938271603,
+        "word_edits": 5,
+        "char_edits": 31,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dvidešimto amžiaus trečiame dešimtmetyje dauguma žmonių ir ištiksos tautos gyveno pacifizmo ir izoliavimo idėjomis.",
+        "wer": 0.35714285714285715,
+        "cer": 0.3333333333333333,
+        "word_edits": 5,
+        "char_edits": 27,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "fleurs_11395665186825593839",
+      "track": "dictation",
+      "source": "fleurs",
+      "duration_sec": 9.72,
+      "audio": "assets/audio/fleurs_11395665186825593839.wav",
+      "reference": "1963 m. pastačius užtvanką buvo sustabdyti sezoniniai potvyniai, paskleidžiantys nuosėdas visoje upėje.",
+      "control": {
+        "hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
+        "wer": 0.16666666666666666,
+        "cer": 0.033707865168539325,
+        "word_edits": 2,
+        "char_edits": 3
+      },
+      "step50": {
+        "hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
+        "wer": 0.16666666666666666,
+        "cer": 0.033707865168539325,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
+        "wer": 0.16666666666666666,
+        "cer": 0.033707865168539325,
+        "word_edits": 2,
+        "char_edits": 3,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 10.32,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1.wav",
+      "reference": "Ir antras dalykas jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba, ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią sumą, kurią jūs buvot minėjęs.",
+      "control": {
+        "hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
+        "wer": 0.2,
+        "cer": 0.1503267973856209,
+        "word_edits": 6,
+        "char_edits": 23
+      },
+      "step50": {
+        "hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
+        "wer": 0.2,
+        "cer": 0.1503267973856209,
+        "word_edits": 6,
+        "char_edits": 23,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
+        "wer": 0.2,
+        "cer": 0.1503267973856209,
+        "word_edits": 6,
+        "char_edits": 23,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 5.919,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6.wav",
+      "reference": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+      "control": {
+        "hypothesis": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Bet po dvidešimties metų buvo panaikintas šitas įstatymas ir dabar yra taip, kaip yra.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 9.78,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7.wav",
+      "reference": "Rusija, žaisdama be kompromisų, gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+      "control": {
+        "hypothesis": "Sama be kompromisu gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+        "wer": 0.17647058823529413,
+        "cer": 0.08943089430894309,
+        "word_edits": 3,
+        "char_edits": 11
+      },
+      "step50": {
+        "hypothesis": "Sama be kompromisu gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+        "wer": 0.17647058823529413,
+        "cer": 0.08943089430894309,
+        "word_edits": 3,
+        "char_edits": 11,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dama be kompromisu gali laimėti trumpalaikių pergalių, bet ilgalaikėje perspektyvoje tautos sieks išsilaisvinti iš Rusijos įtakos.",
+        "wer": 0.17647058823529413,
+        "cer": 0.08943089430894309,
+        "word_edits": 3,
+        "char_edits": 11,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 9.7,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0.wav",
+      "reference": "Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgiu ir smagu girdėti, kad Lietuva daug ką nustebino savo geru gerai organizuotu pirmininkavimu.",
+      "control": {
+        "hypothesis": "Ačiū pirmininkė. Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgių ir smagu girdėti, kad Lietuva daug ką nustebino savo geru.",
+        "wer": 0.2857142857142857,
+        "cer": 0.3488372093023256,
+        "word_edits": 6,
+        "char_edits": 45
+      },
+      "step50": {
+        "hypothesis": "Ačiū pirmininkė. Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgių ir smagu girdėti, kad Lietuva daug ką nustebino savo geru.",
+        "wer": 0.2857142857142857,
+        "cer": 0.3488372093023256,
+        "word_edits": 6,
+        "char_edits": 45,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ačiū pirmininkė. Labai smagu girdėti tiek daug sveikinimų Lietuvos atžvilgių ir smagu girdėti, kad Lietuva daug ką nustebino savo geru.",
+        "wer": 0.2857142857142857,
+        "cer": 0.3488372093023256,
+        "word_edits": 6,
+        "char_edits": 45,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 9.76,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10.wav",
+      "reference": "Prieš 23 metus sausio 13 ąją Lietuvos žmonės stovėjo prie Parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+      "control": {
+        "hypothesis": "Prieš 23 metus sausio 13-ąją Lietuvo žmonės stovėjo prie parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+        "wer": 0.05263157894736842,
+        "cer": 0.01,
+        "word_edits": 1,
+        "char_edits": 1
+      },
+      "step50": {
+        "hypothesis": "Prieš 23 metus sausio 13-ąją Lietuvo žmonės stovėjo prie parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+        "wer": 0.05263157894736842,
+        "cer": 0.01,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Prieš 23 metus sausio 13-ąją lietuvo žmonės stovėjo prie parlamento gindami beginkliai su daina ir su tvirtu tikėjimu.",
+        "wer": 0.05263157894736842,
+        "cer": 0.01,
+        "word_edits": 1,
+        "char_edits": 1,
+        "status": "changed"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 6.12,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12.wav",
+      "reference": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingu Lietuvos pirmininkavimu Europos Sąjungoje.",
+      "control": {
+        "hypothesis": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingų Lietuvos pirmininkavimų Europos Sąjungai.",
+        "wer": 0.2,
+        "cer": 0.052083333333333336,
+        "word_edits": 3,
+        "char_edits": 5
+      },
+      "step50": {
+        "hypothesis": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingų Lietuvos pirmininkavimų Europos Sąjungai.",
+        "wer": 0.2,
+        "cer": 0.052083333333333336,
+        "word_edits": 3,
+        "char_edits": 5,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Ir turbūt stebuklas, kad šiandien po 23 metų mes džiaugiamės sėkmingų Lietuvos pirmininkavimų Europos Sąjungai.",
+        "wer": 0.2,
+        "cer": 0.052083333333333336,
+        "word_edits": 3,
+        "char_edits": 5,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 12.86,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13.wav",
+      "reference": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos Parlamento nariams ir tikiuosi, kad turėsime ateityje daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+      "control": {
+        "hypothesis": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos parlamento nariams ir tikiuosi, kad turėsime tik jie daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+        "wer": 0.06666666666666667,
+        "cer": 0.02617801047120419,
+        "word_edits": 2,
+        "char_edits": 5
+      },
+      "step50": {
+        "hypothesis": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos parlamento nariams ir tikiuosi, kad turėsime tik jie daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+        "wer": 0.06666666666666667,
+        "cer": 0.02617801047120419,
+        "word_edits": 2,
+        "char_edits": 5,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Todėl labai noriu padėkoti visai Lietuvos komandai, labai noriu padėkoti kolegoms Europos parlamento nariams ir tikiuosi, kad turėsime tik jie daug progų bendradarbiauti ir gražiai sutarti dėl mums visiems rūpimų klausimų.",
+        "wer": 0.06666666666666667,
+        "cer": 0.02617801047120419,
+        "word_edits": 2,
+        "char_edits": 5,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_2",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 5.52,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_2.wav",
+      "reference": "Vilniaus susitikimas buvo labai reikšmingas stiprinant ryšius su Rytų partnerystės šalimis.",
+      "control": {
+        "hypothesis": "Vilniaus susitikimas buvo labai reikšmingas stiprinant ryšius su rytų partnerystės šalimis.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Vilno susitikimas buvo labai reikšmingas stiprinant ryšius su rytų partnerystės šalimis.",
+        "wer": 0.09090909090909091,
+        "cer": 0.05,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "worse"
+      },
+      "step300": {
+        "hypothesis": "Vilno susitikimas buvo labai reikšmingas stiprinant ryšius su rytų partnerystės šalimis.",
+        "wer": 0.09090909090909091,
+        "cer": 0.05,
+        "word_edits": 1,
+        "char_edits": 4,
+        "status": "worse"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 6.52,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3.wav",
+      "reference": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+      "control": {
+        "hypothesis": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0
+      },
+      "step50": {
+        "hypothesis": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Dabar turime atsižvelgti į didžiųjų veikėjų žaidimus, turime nepalikti Ukrainos žmonių vienų.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "word_edits": 0,
+        "char_edits": 0,
+        "status": "same"
+      }
+    },
+    {
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5",
+      "track": "dictation",
+      "source": "voxpopuli_lt",
+      "duration_sec": 10.74,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5.wav",
+      "reference": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, Europos Sąjungos Baltijos jūros strategija, Rytų kaimynystės politika.",
+      "control": {
+        "hypothesis": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, ES Baltijos jūros strategija, rytų kaiminystės politika.",
+        "wer": 0.15,
+        "cer": 0.09090909090909091,
+        "word_edits": 3,
+        "char_edits": 14
+      },
+      "step50": {
+        "hypothesis": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, ES Baltijos jūros strategija, rytų kaiminystės politika.",
+        "wer": 0.15,
+        "cer": 0.09090909090909091,
+        "word_edits": 3,
+        "char_edits": 14,
+        "status": "same"
+      },
+      "step300": {
+        "hypothesis": "Manau, kad pasiekėme pirmininkavimo uždavinius, kurie buvo energetinis saugumas, integruotas sienų valdymas, ES Baltijos jūros strategija, rytų kaiminystės politika.",
+        "wer": 0.15,
+        "cer": 0.09090909090909091,
+        "word_edits": 3,
+        "char_edits": 14,
+        "status": "same"
+      }
+    }
+  ],
+  "diff_summary": {
+    "step50": {
+      "dictation": {
+        "candidate_empty_hypotheses": 0,
+        "candidate_failed_rows": 0,
+        "candidate_hallucination_like": 0,
+        "changed_hypotheses": 2,
+        "delta_char_edits": 5,
+        "delta_word_edits": 2,
+        "improved_word_rows": 0,
+        "missing_candidate_rows": [],
+        "rows": 30,
+        "track": "dictation",
+        "worsened_word_rows": 2
+      },
+      "hearing": {
+        "candidate_empty_hypotheses": 0,
+        "candidate_failed_rows": 0,
+        "candidate_hallucination_like": 0,
+        "changed_hypotheses": 2,
+        "delta_char_edits": 5,
+        "delta_word_edits": 2,
+        "improved_word_rows": 0,
+        "missing_candidate_rows": [],
+        "rows": 30,
+        "track": "hearing",
+        "worsened_word_rows": 2
+      },
+      "overall": {
+        "candidate_empty_hypotheses": 0,
+        "candidate_failed_rows": 0,
+        "candidate_hallucination_like": 0,
+        "changed_hypotheses": 4,
+        "delta_char_edits": 10,
+        "delta_word_edits": 4,
+        "improved_word_rows": 0,
+        "worsened_word_rows": 4
+      }
+    },
+    "step300": {
+      "dictation": {
+        "candidate_empty_hypotheses": 0,
+        "candidate_failed_rows": 0,
+        "candidate_hallucination_like": 0,
+        "changed_hypotheses": 9,
+        "delta_char_edits": 0,
+        "delta_word_edits": 4,
+        "improved_word_rows": 0,
+        "missing_candidate_rows": [],
+        "rows": 30,
+        "track": "dictation",
+        "worsened_word_rows": 4
+      },
+      "hearing": {
+        "candidate_empty_hypotheses": 0,
+        "candidate_failed_rows": 0,
+        "candidate_hallucination_like": 0,
+        "changed_hypotheses": 9,
+        "delta_char_edits": 0,
+        "delta_word_edits": 4,
+        "improved_word_rows": 0,
+        "missing_candidate_rows": [],
+        "rows": 30,
+        "track": "hearing",
+        "worsened_word_rows": 4
+      },
+      "overall": {
+        "candidate_empty_hypotheses": 0,
+        "candidate_failed_rows": 0,
+        "candidate_hallucination_like": 0,
+        "changed_hypotheses": 18,
+        "delta_char_edits": 0,
+        "delta_word_edits": 8,
+        "improved_word_rows": 0,
+        "worsened_word_rows": 8
+      }
+    }
+  },
+  "package": {
+    "classification": "external_dial_source_protected_repair_package_ready_no_asr_claim",
+    "decision_note": "The source/protection repair line is now executable at manifest level, but it is still readiness evidence only. GPU work should remain gated on an explicit objective/capacity design and gate30 stop plan.",
+    "train": {
+      "component_rows": {
+        "dial_min3_pnc_task": 13405,
+        "harmed_source_repair_replay_x4": 792,
+        "protected_anchor_replay_x4": 668
+      },
+      "digit_text_rows": 780,
+      "hours": 25.488018,
+      "itn_rows": {
+        "no": 13405,
+        "yes": 1460
+      },
+      "pnc_rows": {
+        "yes": 14865
+      },
+      "rows": 14865,
+      "source_hours": {
+        "common_voice_25": 0.485987,
+        "fleurs": 3.224867,
+        "liepa3_dial_targeted_standard_label_qa": 20.892211,
+        "voxpopuli_lt": 0.884953
+      },
+      "source_rows": {
+        "common_voice_25": 264,
+        "fleurs": 932,
+        "liepa3_dial_targeted_standard_label_qa": 13405,
+        "voxpopuli_lt": 264
+      },
+      "unique_audio_names": 13770
+    },
+    "val": {
+      "component_rows": {
+        "dial_min3_pnc_task_val": 534
+      },
+      "digit_text_rows": 0,
+      "hours": 0.833523,
+      "itn_rows": {
+        "no": 534
+      },
+      "pnc_rows": {
+        "yes": 534
+      },
+      "rows": 534,
+      "source_hours": {
+        "liepa3_dial_targeted_standard_label_qa": 0.833523
+      },
+      "source_rows": {
+        "liepa3_dial_targeted_standard_label_qa": 534
+      },
+      "unique_audio_names": 534
+    },
+    "repair": {
+      "component_rows": {
+        "harmed_source_repair_replay_x4": 792
+      },
+      "digit_text_rows": 124,
+      "hours": 2.317873,
+      "itn_rows": {
+        "yes": 792
+      },
+      "pnc_rows": {
+        "yes": 792
+      },
+      "rows": 792,
+      "source_hours": {
+        "common_voice_25": 0.485987,
+        "fleurs": 0.946933,
+        "voxpopuli_lt": 0.884953
+      },
+      "source_rows": {
+        "common_voice_25": 264,
+        "fleurs": 264,
+        "voxpopuli_lt": 264
+      },
+      "unique_audio_names": 198
+    },
+    "missing_audio_files": 0,
+    "missing_adapters": 0,
+    "leakage_hits": 0
+  }
+}
