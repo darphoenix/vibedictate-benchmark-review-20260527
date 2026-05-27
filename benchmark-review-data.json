@@ -2672,33 +2672,33 @@
       }
     },
     {
-      "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8",
       "track": "hearing",
       "source": "voxpopuli_lt",
-      "duration_sec": 10.739,
-      "audio": "assets/audio/voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4.wav",
-      "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus.",
+      "duration_sec": 10.22,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8.wav",
+      "reference": "Niekur pasaulyje, konkrečiai kalbant apie lenkų tautinę mažumą, neturi lenkų mažuma tiek teisių ir sąlygų puoselėti savo kultūrą, socialinį ir visą kitą gyvenimą.",
       "control": {
-        "hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-        "wer": 0.5555555555555556,
-        "cer": 0.48091603053435117,
-        "word_edits": 10,
-        "char_edits": 63
+        "hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+        "wer": 0.13043478260869565,
+        "cer": 0.029411764705882353,
+        "word_edits": 3,
+        "char_edits": 4
       },
       "step50": {
-        "hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-        "wer": 0.5555555555555556,
-        "cer": 0.48091603053435117,
-        "word_edits": 10,
-        "char_edits": 63,
+        "hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+        "wer": 0.13043478260869565,
+        "cer": 0.029411764705882353,
+        "word_edits": 3,
+        "char_edits": 4,
         "status": "same"
       },
       "step300": {
-        "hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-        "wer": 0.5555555555555556,
-        "cer": 0.48091603053435117,
-        "word_edits": 10,
-        "char_edits": 63,
+        "hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+        "wer": 0.13043478260869565,
+        "cer": 0.029411764705882353,
+        "word_edits": 3,
+        "char_edits": 4,
         "status": "same"
       }
     },
@@ -3602,33 +3602,33 @@
       }
     },
     {
-      "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+      "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8",
       "track": "dictation",
       "source": "voxpopuli_lt",
-      "duration_sec": 10.739,
-      "audio": "assets/audio/voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4.wav",
-      "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus.",
+      "duration_sec": 10.22,
+      "audio": "assets/audio/voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8.wav",
+      "reference": "Niekur pasaulyje, konkrečiai kalbant apie lenkų tautinę mažumą, neturi lenkų mažuma tiek teisių ir sąlygų puoselėti savo kultūrą, socialinį ir visą kitą gyvenimą.",
       "control": {
-        "hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-        "wer": 0.5555555555555556,
-        "cer": 0.48091603053435117,
-        "word_edits": 10,
-        "char_edits": 63
+        "hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+        "wer": 0.13043478260869565,
+        "cer": 0.029411764705882353,
+        "word_edits": 3,
+        "char_edits": 4
       },
       "step50": {
-        "hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-        "wer": 0.5555555555555556,
-        "cer": 0.48091603053435117,
-        "word_edits": 10,
-        "char_edits": 63,
+        "hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+        "wer": 0.13043478260869565,
+        "cer": 0.029411764705882353,
+        "word_edits": 3,
+        "char_edits": 4,
         "status": "same"
       },
       "step300": {
-        "hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-        "wer": 0.5555555555555556,
-        "cer": 0.48091603053435117,
-        "word_edits": 10,
-        "char_edits": 63,
+        "hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+        "wer": 0.13043478260869565,
+        "cer": 0.029411764705882353,
+        "word_edits": 3,
+        "char_edits": 4,
         "status": "same"
       }
     }
@@ -3796,8 +3796,8 @@
   },
   "curation": {
     "created_at": "2026-05-27",
-    "classification": "gate30_curated_v3_materialized_pending_backfill_decode",
-    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v3_20260527",
+    "classification": "gate30_curated_v4_materialized_pending_backfill_decode",
+    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v4_20260527",
     "core": {
       "hearing": {
         "rows": 30,
@@ -3810,8 +3810,8 @@
           "backfill_replacement_core": 6,
           "kept_original_core": 24
         },
-        "duration_sec": 242.115,
-        "duration_hours": 0.067254167,
+        "duration_sec": 241.596,
+        "duration_hours": 0.06711,
         "ids": [
           "cv25_common_voice_lt_23715864",
           "cv25_common_voice_lt_23718394",
@@ -3842,7 +3842,7 @@
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
           "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-          "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
         ]
       },
       "dictation": {
@@ -3856,8 +3856,8 @@
           "backfill_replacement_core": 6,
           "kept_original_core": 24
         },
-        "duration_sec": 242.115,
-        "duration_hours": 0.067254167,
+        "duration_sec": 241.596,
+        "duration_hours": 0.06711,
         "ids": [
           "cv25_common_voice_lt_23715864",
           "cv25_common_voice_lt_23718394",
@@ -3888,7 +3888,7 @@
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
           "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-          "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
         ]
       }
     },
@@ -3972,7 +3972,7 @@
         "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
         "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
         "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-        "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+        "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
       ]
     },
     "rescore_existing_predictions": {
@@ -3987,7 +3987,7 @@
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
               "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
             ],
             "aggregate": {
               "rows": 24,
@@ -4014,7 +4014,7 @@
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
               "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
             ],
             "aggregate": {
               "rows": 24,
@@ -4043,7 +4043,7 @@
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
               "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
             ],
             "aggregate": {
               "rows": 24,
@@ -4070,7 +4070,7 @@
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
               "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
             ],
             "aggregate": {
               "rows": 24,
@@ -4099,7 +4099,7 @@
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
               "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
             ],
             "aggregate": {
               "rows": 24,
@@ -4126,7 +4126,7 @@
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
               "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
-              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8"
             ],
             "aggregate": {
               "rows": 24,
@@ -4148,12 +4148,12 @@
         }
       }
     },
-    "next_required_step": "Run ASR decode for the backfill replacement rows for production/step50/step300, then compute final gate30_curated_v3_20260527 scores."
+    "next_required_step": "Run ASR decode for the backfill replacement rows for production/step50/step300, then compute final gate30_curated_v4_20260527 scores."
   },
-  "curation_label": "v3",
+  "curation_label": "v4",
   "curation_overlay": {
     "created_at": "2026-05-27",
-    "scope": "Second human refinement of LT gate30 benchmark after public review",
+    "scope": "Third human refinement of LT gate30 benchmark after public review",
     "principle": "Rows named by the operator are removed from the core benchmark and replaced with same-source rows from the locked strat300 pool. Model hypotheses remain untouched.",
     "decisions": [
       {
@@ -4173,7 +4173,7 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Replace: XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis.",
+        "operator_note": "Replace: XX a. 3 desimtmetyje...",
         "action": "replace_from_core"
       },
       {
@@ -4183,7 +4183,7 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Replace: Ir antras dalykas jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba...",
+        "operator_note": "Replace: Ir antras dalykas...",
         "action": "replace_from_core"
       },
       {
@@ -4193,7 +4193,7 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Replace: Rusija, žaisdama be kompromisų...",
+        "operator_note": "Replace: Rusija, zaisdama be kompromisu...",
         "action": "replace_from_core"
       },
       {
@@ -4203,7 +4203,7 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Replace: Labai smagu girdėti tiek daug sveikinimų...",
+        "operator_note": "Replace: Labai smagu girdeti tiek daug sveikinimu...",
         "action": "replace_from_core"
       },
       {
@@ -4213,27 +4213,37 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Replace: Todėl labai noriu padėkoti visai Lietuvos komandai...",
+        "operator_note": "Replace: Todel labai noriu padekoti visai Lietuvos komandai...",
+        "action": "replace_from_core"
+      },
+      {
+        "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+        "source": "voxpopuli_lt",
+        "tracks": [
+          "hearing",
+          "dictation"
+        ],
+        "operator_note": "Replace: Taciau pirmutinis tikslas siandien yra itikinti visas konfrontuojancias salis...",
         "action": "replace_from_core"
       }
     ]
   },
   "final_curated_scores": {
     "created_at": "2026-05-27",
-    "classification": "gate30_curated_v3_final_scores_complete",
-    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v3_20260527",
+    "classification": "gate30_curated_v4_final_scores_complete",
+    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v4_20260527",
     "backfill_eval_dirs": {
       "control": {
-        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165523_autoresearch_20260527_gate30_curated_v3_backfill_control-hearing",
-        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165530_autoresearch_20260527_gate30_curated_v3_backfill_control-dictation"
+        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_173342_autoresearch_20260527_gate30_curated_v4_backfill_control-hearing",
+        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_173349_autoresearch_20260527_gate30_curated_v4_backfill_control-dictation"
       },
       "step50": {
-        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165624_autoresearch_20260527_gate30_curated_v3_backfill_step50-hearing",
-        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165631_autoresearch_20260527_gate30_curated_v3_backfill_step50-dictation"
+        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_173449_autoresearch_20260527_gate30_curated_v4_backfill_step50-hearing",
+        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_173455_autoresearch_20260527_gate30_curated_v4_backfill_step50-dictation"
       },
       "step300": {
-        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165723_autoresearch_20260527_gate30_curated_v3_backfill_step300-hearing",
-        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165730_autoresearch_20260527_gate30_curated_v3_backfill_step300-dictation"
+        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_173554_autoresearch_20260527_gate30_curated_v4_backfill_step300-hearing",
+        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_173601_autoresearch_20260527_gate30_curated_v4_backfill_step300-dictation"
       }
     },
     "runs": {
@@ -4241,17 +4251,17 @@
         "hearing": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.10406091370558376,
-            "cer": 0.04874213836477988,
-            "word_edits": 41,
-            "word_ref": 394,
-            "char_edits": 124,
-            "char_ref": 2544,
-            "duration_sec": 242.115,
-            "latency_mean_sec": 0.874392,
+            "wer": 0.08521303258145363,
+            "cer": 0.02550019615535504,
+            "word_edits": 34,
+            "word_ref": 399,
+            "char_edits": 65,
+            "char_ref": 2549,
+            "duration_sec": 241.596,
+            "latency_mean_sec": 0.85312,
             "latency_p50_sec": 0.787589,
-            "latency_p90_sec": 1.214374,
-            "rtf_mean": 0.114728,
+            "latency_p90_sec": 1.177324,
+            "rtf_mean": 0.112449,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4281,26 +4291,26 @@
               "char_edits": 13,
               "char_ref": 1068,
               "duration_sec": 114.3,
-              "latency_mean_sec": 1.085957,
+              "latency_mean_sec": 1.063747,
               "latency_p50_sec": 1.101471,
-              "latency_p90_sec": 1.268916,
-              "rtf_mean": 0.095747,
+              "latency_p90_sec": 1.257037,
+              "rtf_mean": 0.093385,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.14864864864864866,
-              "cer": 0.09611451942740286,
-              "word_edits": 22,
-              "word_ref": 148,
-              "char_edits": 94,
-              "char_ref": 978,
-              "duration_sec": 72.998,
-              "latency_mean_sec": 0.844635,
+              "wer": 0.09803921568627451,
+              "cer": 0.03560528992878942,
+              "word_edits": 15,
+              "word_ref": 153,
+              "char_edits": 35,
+              "char_ref": 983,
+              "duration_sec": 72.479,
+              "latency_mean_sec": 0.803029,
               "latency_p50_sec": 0.821578,
-              "latency_p90_sec": 1.022347,
-              "rtf_mean": 0.120059,
+              "latency_p90_sec": 0.961566,
+              "rtf_mean": 0.115584,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4309,17 +4319,17 @@
         "dictation": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.1065989847715736,
-            "cer": 0.052465483234714005,
-            "word_edits": 42,
-            "word_ref": 394,
-            "char_edits": 133,
-            "char_ref": 2535,
-            "duration_sec": 242.115,
-            "latency_mean_sec": 0.803624,
+            "wer": 0.08771929824561403,
+            "cer": 0.029133858267716535,
+            "word_edits": 35,
+            "word_ref": 399,
+            "char_edits": 74,
+            "char_ref": 2540,
+            "duration_sec": 241.596,
+            "latency_mean_sec": 0.78591,
             "latency_p50_sec": 0.791191,
-            "latency_p90_sec": 1.120923,
-            "rtf_mean": 0.10499,
+            "latency_p90_sec": 1.118648,
+            "rtf_mean": 0.10297,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4349,26 +4359,26 @@
               "char_edits": 22,
               "char_ref": 1055,
               "duration_sec": 114.3,
-              "latency_mean_sec": 0.9619,
-              "latency_p50_sec": 1.030472,
+              "latency_mean_sec": 0.946961,
+              "latency_p50_sec": 0.981462,
               "latency_p90_sec": 1.134304,
-              "rtf_mean": 0.084227,
+              "rtf_mean": 0.082689,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.14864864864864866,
-              "cer": 0.09611451942740286,
-              "word_edits": 22,
-              "word_ref": 148,
-              "char_edits": 94,
-              "char_ref": 978,
-              "duration_sec": 72.998,
-              "latency_mean_sec": 0.842042,
+              "wer": 0.09803921568627451,
+              "cer": 0.03560528992878942,
+              "word_edits": 15,
+              "word_ref": 153,
+              "char_edits": 35,
+              "char_ref": 983,
+              "duration_sec": 72.479,
+              "latency_mean_sec": 0.803837,
               "latency_p50_sec": 0.850753,
-              "latency_p90_sec": 1.022643,
-              "rtf_mean": 0.119792,
+              "latency_p90_sec": 0.970734,
+              "rtf_mean": 0.115268,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4379,17 +4389,17 @@
         "hearing": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.10913705583756345,
-            "cer": 0.05070754716981132,
-            "word_edits": 43,
-            "word_ref": 394,
-            "char_edits": 129,
-            "char_ref": 2544,
-            "duration_sec": 242.115,
-            "latency_mean_sec": 0.874547,
+            "wer": 0.09022556390977443,
+            "cer": 0.027461749705766966,
+            "word_edits": 36,
+            "word_ref": 399,
+            "char_edits": 70,
+            "char_ref": 2549,
+            "duration_sec": 241.596,
+            "latency_mean_sec": 0.867589,
             "latency_p50_sec": 0.837352,
-            "latency_p90_sec": 1.18263,
-            "rtf_mean": 0.115359,
+            "latency_p90_sec": 1.174742,
+            "rtf_mean": 0.114508,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4419,26 +4429,26 @@
               "char_edits": 14,
               "char_ref": 1068,
               "duration_sec": 114.3,
-              "latency_mean_sec": 1.051559,
+              "latency_mean_sec": 1.067129,
               "latency_p50_sec": 1.040122,
-              "latency_p90_sec": 1.240375,
-              "rtf_mean": 0.092309,
+              "latency_p90_sec": 1.256213,
+              "rtf_mean": 0.093751,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.1554054054054054,
-              "cer": 0.10020449897750511,
-              "word_edits": 23,
-              "word_ref": 148,
-              "char_edits": 98,
-              "char_ref": 978,
-              "duration_sec": 72.998,
-              "latency_mean_sec": 0.860468,
-              "latency_p50_sec": 0.863955,
-              "latency_p90_sec": 1.065832,
-              "rtf_mean": 0.122544,
+              "wer": 0.10457516339869281,
+              "cer": 0.03967446592065107,
+              "word_edits": 16,
+              "word_ref": 153,
+              "char_edits": 39,
+              "char_ref": 983,
+              "duration_sec": 72.479,
+              "latency_mean_sec": 0.824021,
+              "latency_p50_sec": 0.858104,
+              "latency_p90_sec": 1.031404,
+              "rtf_mean": 0.118549,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4447,17 +4457,17 @@
         "dictation": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.1116751269035533,
-            "cer": 0.054437869822485205,
-            "word_edits": 44,
-            "word_ref": 394,
-            "char_edits": 138,
-            "char_ref": 2535,
-            "duration_sec": 242.115,
-            "latency_mean_sec": 0.822322,
+            "wer": 0.09273182957393483,
+            "cer": 0.03110236220472441,
+            "word_edits": 37,
+            "word_ref": 399,
+            "char_edits": 79,
+            "char_ref": 2540,
+            "duration_sec": 241.596,
+            "latency_mean_sec": 0.804762,
             "latency_p50_sec": 0.780761,
-            "latency_p90_sec": 1.159788,
-            "rtf_mean": 0.10877,
+            "latency_p90_sec": 1.059902,
+            "rtf_mean": 0.106585,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4487,26 +4497,26 @@
               "char_edits": 23,
               "char_ref": 1055,
               "duration_sec": 114.3,
-              "latency_mean_sec": 0.975921,
-              "latency_p50_sec": 1.004693,
+              "latency_mean_sec": 0.966885,
+              "latency_p50_sec": 0.969106,
               "latency_p90_sec": 1.214678,
-              "rtf_mean": 0.085165,
+              "rtf_mean": 0.084269,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.1554054054054054,
-              "cer": 0.10020449897750511,
-              "word_edits": 23,
-              "word_ref": 148,
-              "char_edits": 98,
-              "char_ref": 978,
-              "duration_sec": 72.998,
-              "latency_mean_sec": 0.865016,
+              "wer": 0.10457516339869281,
+              "cer": 0.03967446592065107,
+              "word_edits": 16,
+              "word_ref": 153,
+              "char_edits": 39,
+              "char_ref": 983,
+              "duration_sec": 72.479,
+              "latency_mean_sec": 0.82137,
               "latency_p50_sec": 0.846845,
-              "latency_p90_sec": 1.041069,
-              "rtf_mean": 0.123745,
+              "latency_p90_sec": 1.006011,
+              "rtf_mean": 0.118084,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4517,17 +4527,17 @@
         "hearing": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.11928934010152284,
-            "cer": 0.050314465408805034,
-            "word_edits": 47,
-            "word_ref": 394,
-            "char_edits": 128,
-            "char_ref": 2544,
-            "duration_sec": 242.115,
-            "latency_mean_sec": 0.898014,
+            "wer": 0.10025062656641603,
+            "cer": 0.02706943899568458,
+            "word_edits": 40,
+            "word_ref": 399,
+            "char_edits": 69,
+            "char_ref": 2549,
+            "duration_sec": 241.596,
+            "latency_mean_sec": 0.882648,
             "latency_p50_sec": 0.832731,
-            "latency_p90_sec": 1.232451,
-            "rtf_mean": 0.117906,
+            "latency_p90_sec": 1.207433,
+            "rtf_mean": 0.116256,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4557,26 +4567,26 @@
               "char_edits": 15,
               "char_ref": 1068,
               "duration_sec": 114.3,
-              "latency_mean_sec": 1.094255,
+              "latency_mean_sec": 1.085366,
               "latency_p50_sec": 1.071296,
-              "latency_p90_sec": 1.323231,
-              "rtf_mean": 0.095938,
+              "latency_p90_sec": 1.317919,
+              "rtf_mean": 0.095009,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.16891891891891891,
-              "cer": 0.10020449897750511,
-              "word_edits": 25,
-              "word_ref": 148,
-              "char_edits": 98,
-              "char_ref": 978,
-              "duration_sec": 72.998,
-              "latency_mean_sec": 0.870284,
+              "wer": 0.11764705882352941,
+              "cer": 0.03967446592065107,
+              "word_edits": 18,
+              "word_ref": 153,
+              "char_edits": 39,
+              "char_ref": 983,
+              "duration_sec": 72.479,
+              "latency_mean_sec": 0.833076,
               "latency_p50_sec": 0.867544,
-              "latency_p90_sec": 1.129579,
-              "rtf_mean": 0.122965,
+              "latency_p90_sec": 1.00443,
+              "rtf_mean": 0.118943,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4585,17 +4595,17 @@
         "dictation": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.1218274111675127,
-            "cer": 0.05404339250493097,
-            "word_edits": 48,
-            "word_ref": 394,
-            "char_edits": 137,
-            "char_ref": 2535,
-            "duration_sec": 242.115,
-            "latency_mean_sec": 0.82995,
+            "wer": 0.10275689223057644,
+            "cer": 0.030708661417322834,
+            "word_edits": 41,
+            "word_ref": 399,
+            "char_edits": 78,
+            "char_ref": 2540,
+            "duration_sec": 241.596,
+            "latency_mean_sec": 0.808529,
             "latency_p50_sec": 0.793551,
-            "latency_p90_sec": 1.146411,
-            "rtf_mean": 0.108595,
+            "latency_p90_sec": 1.063393,
+            "rtf_mean": 0.106328,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4625,26 +4635,26 @@
               "char_edits": 24,
               "char_ref": 1055,
               "duration_sec": 114.3,
-              "latency_mean_sec": 0.984166,
+              "latency_mean_sec": 0.97634,
               "latency_p50_sec": 1.036788,
               "latency_p90_sec": 1.156045,
-              "rtf_mean": 0.085763,
+              "rtf_mean": 0.084918,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.16891891891891891,
-              "cer": 0.10020449897750511,
-              "word_edits": 25,
-              "word_ref": 148,
-              "char_edits": 98,
-              "char_ref": 978,
-              "duration_sec": 72.998,
-              "latency_mean_sec": 0.878539,
-              "latency_p50_sec": 0.871456,
-              "latency_p90_sec": 1.074524,
-              "rtf_mean": 0.123567,
+              "wer": 0.11764705882352941,
+              "cer": 0.03967446592065107,
+              "word_edits": 18,
+              "word_ref": 153,
+              "char_edits": 39,
+              "char_ref": 983,
+              "duration_sec": 72.479,
+              "latency_mean_sec": 0.822103,
+              "latency_p50_sec": 0.867296,
+              "latency_p90_sec": 1.000647,
+              "rtf_mean": 0.11761,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -5011,16 +5021,16 @@
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
             },
             {
-              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8",
               "source": "voxpopuli_lt",
               "changed": false,
               "delta_word_edits": 0,
               "delta_char_edits": 0,
-              "baseline_word_edits": 10,
-              "candidate_word_edits": 10,
-              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
+              "baseline_word_edits": 3,
+              "candidate_word_edits": 3,
+              "baseline_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "candidate_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "reference": "Niekur pasaulyje, konkrečiai kalbant apie lenkų tautinę mažumą, neturi lenkų mažuma tiek teisių ir sąlygų puoselėti savo kultūrą, socialinį ir visą kitą gyvenimą."
             }
           ]
         },
@@ -5381,16 +5391,16 @@
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
             },
             {
-              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8",
               "source": "voxpopuli_lt",
               "changed": false,
               "delta_word_edits": 0,
               "delta_char_edits": 0,
-              "baseline_word_edits": 10,
-              "candidate_word_edits": 10,
-              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
+              "baseline_word_edits": 3,
+              "candidate_word_edits": 3,
+              "baseline_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "candidate_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "reference": "Niekur pasaulyje, konkrečiai kalbant apie lenkų tautinę mažumą, neturi lenkų mažuma tiek teisių ir sąlygų puoselėti savo kultūrą, socialinį ir visą kitą gyvenimą."
             }
           ]
         }
@@ -5753,16 +5763,16 @@
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
             },
             {
-              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8",
               "source": "voxpopuli_lt",
               "changed": false,
               "delta_word_edits": 0,
               "delta_char_edits": 0,
-              "baseline_word_edits": 10,
-              "candidate_word_edits": 10,
-              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
+              "baseline_word_edits": 3,
+              "candidate_word_edits": 3,
+              "baseline_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "candidate_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "reference": "Niekur pasaulyje, konkrečiai kalbant apie lenkų tautinę mažumą, neturi lenkų mažuma tiek teisių ir sąlygų puoselėti savo kultūrą, socialinį ir visą kitą gyvenimą."
             }
           ]
         },
@@ -6123,21 +6133,21 @@
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
             },
             {
-              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_8",
               "source": "voxpopuli_lt",
               "changed": false,
               "delta_word_edits": 0,
               "delta_char_edits": 0,
-              "baseline_word_edits": 10,
-              "candidate_word_edits": 10,
-              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
-              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
+              "baseline_word_edits": 3,
+              "candidate_word_edits": 3,
+              "baseline_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "candidate_hypothesis": "Niekur pasaulyje, konkrečiai kalbant apie Lenkų tautinę mažumą, neturi Lenkų mažumą tiek teisų ir sąlygų puoselėti savo kultūrą ir socialinį ir visą kitą gyvenimą.",
+              "reference": "Niekur pasaulyje, konkrečiai kalbant apie lenkų tautinę mažumą, neturi lenkų mažuma tiek teisių ir sąlygų puoselėti savo kultūrą, socialinį ir visą kitą gyvenimą."
             }
           ]
         }
       }
     }
   },
-  "active_review_label": "curated gate30 v3"
+  "active_review_label": "curated gate30 v4"
 }
