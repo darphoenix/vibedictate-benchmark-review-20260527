@@ -3796,8 +3796,8 @@
   },
   "curation": {
     "created_at": "2026-05-27",
-    "classification": "gate30_curated_v2_materialized_pending_backfill_decode",
-    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v2_20260527",
+    "classification": "gate30_curated_v3_materialized_pending_backfill_decode",
+    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v3_20260527",
     "core": {
       "hearing": {
         "rows": 30,
@@ -3807,12 +3807,11 @@
           "voxpopuli_lt": 10
         },
         "action_rows": {
-          "backfill_replacement_core": 4,
-          "kept_original_core": 25,
-          "reference_truncated_to_voiced_span": 1
+          "backfill_replacement_core": 6,
+          "kept_original_core": 24
         },
-        "duration_sec": 246.376,
-        "duration_hours": 0.068437778,
+        "duration_sec": 242.115,
+        "duration_hours": 0.067254167,
         "ids": [
           "cv25_common_voice_lt_23715864",
           "cv25_common_voice_lt_23718394",
@@ -3831,9 +3830,7 @@
           "fleurs_10683607897836413780",
           "fleurs_10809590308665969964",
           "fleurs_1135061970268070063",
-          "fleurs_11373730056448997779",
           "fleurs_11395665186825593839",
-          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12",
@@ -3841,9 +3838,11 @@
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5",
           "fleurs_12850294873640132979",
+          "fleurs_11474992114334994163",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-          "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+          "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+          "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
         ]
       },
       "dictation": {
@@ -3854,12 +3853,11 @@
           "voxpopuli_lt": 10
         },
         "action_rows": {
-          "backfill_replacement_core": 4,
-          "kept_original_core": 25,
-          "reference_truncated_to_voiced_span": 1
+          "backfill_replacement_core": 6,
+          "kept_original_core": 24
         },
-        "duration_sec": 246.376,
-        "duration_hours": 0.068437778,
+        "duration_sec": 242.115,
+        "duration_hours": 0.067254167,
         "ids": [
           "cv25_common_voice_lt_23715864",
           "cv25_common_voice_lt_23718394",
@@ -3878,9 +3876,7 @@
           "fleurs_10683607897836413780",
           "fleurs_10809590308665969964",
           "fleurs_1135061970268070063",
-          "fleurs_11373730056448997779",
           "fleurs_11395665186825593839",
-          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12",
@@ -3888,9 +3884,11 @@
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5",
           "fleurs_12850294873640132979",
+          "fleurs_11474992114334994163",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-          "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+          "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+          "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
         ]
       }
     },
@@ -3926,49 +3924,55 @@
     },
     "excluded_or_repair": {
       "hearing": {
-        "rows": 3,
+        "rows": 5,
         "source_rows": {
-          "voxpopuli_lt": 3
+          "fleurs": 1,
+          "voxpopuli_lt": 4
         },
         "action_rows": {
-          "removed_from_core": 3
+          "removed_from_core": 5
         },
-        "duration_sec": 32.34,
-        "duration_hours": 0.008983333,
+        "duration_sec": 55.56,
+        "duration_hours": 0.015433333,
         "ids": [
+          "fleurs_11373730056448997779",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13"
         ]
       },
       "dictation": {
-        "rows": 3,
+        "rows": 5,
         "source_rows": {
-          "voxpopuli_lt": 3
+          "fleurs": 1,
+          "voxpopuli_lt": 4
         },
         "action_rows": {
-          "removed_from_core": 3
+          "removed_from_core": 5
         },
-        "duration_sec": 32.34,
-        "duration_hours": 0.008983333,
+        "duration_sec": 55.56,
+        "duration_hours": 0.015433333,
         "ids": [
+          "fleurs_11373730056448997779",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
           "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13"
         ]
       }
     },
-    "reference_corrections": {
-      "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią."
-    },
+    "reference_corrections": {},
     "replacement_ids_by_source": {
       "fleurs": [
-        "fleurs_12850294873640132979"
+        "fleurs_12850294873640132979",
+        "fleurs_11474992114334994163"
       ],
       "voxpopuli_lt": [
         "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
         "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-        "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+        "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+        "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
       ]
     },
     "rescore_existing_predictions": {
@@ -3976,51 +3980,55 @@
       "runs": {
         "control": {
           "hearing": {
-            "predicted_rows": 26,
+            "predicted_rows": 24,
             "missing_rows": [
               "fleurs_12850294873640132979",
+              "fleurs_11474992114334994163",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
             ],
             "aggregate": {
-              "rows": 26,
-              "wer": 0.08959537572254335,
-              "cer": 0.03406439570695287,
-              "word_edits": 31,
-              "word_ref": 346,
-              "char_edits": 73,
-              "char_ref": 2143,
-              "duration_sec": 217.956,
-              "latency_mean_sec": 0.851582,
-              "latency_p50_sec": 0.813837,
-              "latency_p90_sec": 1.183501,
-              "rtf_mean": 0.109617,
+              "rows": 24,
+              "wer": 0.08143322475570032,
+              "cer": 0.02476780185758514,
+              "word_edits": 25,
+              "word_ref": 307,
+              "char_edits": 48,
+              "char_ref": 1938,
+              "duration_sec": 194.736,
+              "latency_mean_sec": 0.837532,
+              "latency_p50_sec": 0.787589,
+              "latency_p90_sec": 1.173395,
+              "rtf_mean": 0.111198,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
           },
           "dictation": {
-            "predicted_rows": 26,
+            "predicted_rows": 24,
             "missing_rows": [
               "fleurs_12850294873640132979",
+              "fleurs_11474992114334994163",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
             ],
             "aggregate": {
-              "rows": 26,
-              "wer": 0.09248554913294797,
-              "cer": 0.04207573632538569,
-              "word_edits": 32,
-              "word_ref": 346,
-              "char_edits": 90,
-              "char_ref": 2139,
-              "duration_sec": 217.956,
-              "latency_mean_sec": 0.80985,
-              "latency_p50_sec": 0.806866,
-              "latency_p90_sec": 1.125904,
-              "rtf_mean": 0.102102,
+              "rows": 24,
+              "wer": 0.08469055374592833,
+              "cer": 0.029548989113530325,
+              "word_edits": 26,
+              "word_ref": 307,
+              "char_edits": 57,
+              "char_ref": 1929,
+              "duration_sec": 194.736,
+              "latency_mean_sec": 0.786532,
+              "latency_p50_sec": 0.791191,
+              "latency_p90_sec": 1.119334,
+              "rtf_mean": 0.102497,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4028,51 +4036,55 @@
         },
         "step50": {
           "hearing": {
-            "predicted_rows": 26,
+            "predicted_rows": 24,
             "missing_rows": [
               "fleurs_12850294873640132979",
+              "fleurs_11474992114334994163",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
             ],
             "aggregate": {
-              "rows": 26,
-              "wer": 0.0953757225433526,
-              "cer": 0.036397573495100324,
-              "word_edits": 33,
-              "word_ref": 346,
-              "char_edits": 78,
-              "char_ref": 2143,
-              "duration_sec": 217.956,
-              "latency_mean_sec": 0.867692,
-              "latency_p50_sec": 0.879766,
-              "latency_p90_sec": 1.176897,
-              "rtf_mean": 0.111858,
+              "rows": 24,
+              "wer": 0.08794788273615635,
+              "cer": 0.027347781217750257,
+              "word_edits": 27,
+              "word_ref": 307,
+              "char_edits": 53,
+              "char_ref": 1938,
+              "duration_sec": 194.736,
+              "latency_mean_sec": 0.848418,
+              "latency_p50_sec": 0.837352,
+              "latency_p90_sec": 1.168267,
+              "rtf_mean": 0.113106,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
           },
           "dictation": {
-            "predicted_rows": 26,
+            "predicted_rows": 24,
             "missing_rows": [
               "fleurs_12850294873640132979",
+              "fleurs_11474992114334994163",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
             ],
             "aggregate": {
-              "rows": 26,
-              "wer": 0.09826589595375723,
-              "cer": 0.04441327723235157,
-              "word_edits": 34,
-              "word_ref": 346,
-              "char_edits": 95,
-              "char_ref": 2139,
-              "duration_sec": 217.956,
-              "latency_mean_sec": 0.840765,
-              "latency_p50_sec": 0.812101,
-              "latency_p90_sec": 1.18355,
-              "rtf_mean": 0.106901,
+              "rows": 24,
+              "wer": 0.09120521172638436,
+              "cer": 0.0321410057024365,
+              "word_edits": 28,
+              "word_ref": 307,
+              "char_edits": 62,
+              "char_ref": 1929,
+              "duration_sec": 194.736,
+              "latency_mean_sec": 0.809551,
+              "latency_p50_sec": 0.780761,
+              "latency_p90_sec": 1.122533,
+              "rtf_mean": 0.106926,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4080,51 +4092,55 @@
         },
         "step300": {
           "hearing": {
-            "predicted_rows": 26,
+            "predicted_rows": 24,
             "missing_rows": [
               "fleurs_12850294873640132979",
+              "fleurs_11474992114334994163",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
             ],
             "aggregate": {
-              "rows": 26,
-              "wer": 0.10115606936416185,
-              "cer": 0.03406439570695287,
-              "word_edits": 35,
-              "word_ref": 346,
-              "char_edits": 73,
-              "char_ref": 2143,
-              "duration_sec": 217.956,
-              "latency_mean_sec": 0.881831,
-              "latency_p50_sec": 0.849949,
-              "latency_p90_sec": 1.219358,
-              "rtf_mean": 0.113592,
+              "rows": 24,
+              "wer": 0.09446254071661238,
+              "cer": 0.026831785345717233,
+              "word_edits": 29,
+              "word_ref": 307,
+              "char_edits": 52,
+              "char_ref": 1938,
+              "duration_sec": 194.736,
+              "latency_mean_sec": 0.867804,
+              "latency_p50_sec": 0.832731,
+              "latency_p90_sec": 1.18603,
+              "rtf_mean": 0.115275,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
           },
           "dictation": {
-            "predicted_rows": 26,
+            "predicted_rows": 24,
             "missing_rows": [
               "fleurs_12850294873640132979",
+              "fleurs_11474992114334994163",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
-              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10",
+              "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4"
             ],
             "aggregate": {
-              "rows": 26,
-              "wer": 0.10404624277456648,
-              "cer": 0.04207573632538569,
-              "word_edits": 36,
-              "word_ref": 346,
-              "char_edits": 90,
-              "char_ref": 2139,
-              "duration_sec": 217.956,
-              "latency_mean_sec": 0.831939,
-              "latency_p50_sec": 0.799415,
-              "latency_p90_sec": 1.146527,
-              "rtf_mean": 0.105557,
+              "rows": 24,
+              "wer": 0.09771986970684039,
+              "cer": 0.03162260238465526,
+              "word_edits": 30,
+              "word_ref": 307,
+              "char_edits": 61,
+              "char_ref": 1929,
+              "duration_sec": 194.736,
+              "latency_mean_sec": 0.814795,
+              "latency_p50_sec": 0.793551,
+              "latency_p90_sec": 1.118719,
+              "rtf_mean": 0.106664,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4132,12 +4148,13 @@
         }
       }
     },
-    "next_required_step": "Run ASR decode for the four backfill replacement rows for production/step50/step300, then compute final curated gate30_v2 scores."
+    "next_required_step": "Run ASR decode for the backfill replacement rows for production/step50/step300, then compute final gate30_curated_v3_20260527 scores."
   },
+  "curation_label": "v3",
   "curation_overlay": {
     "created_at": "2026-05-27",
-    "scope": "lt_eval gate30 benchmark human review notes from public review page",
-    "principle": "Do not edit model hypotheses. Correct references, row validity, and benchmark membership, then rescore or rerun against the curated benchmark.",
+    "scope": "Second human refinement of LT gate30 benchmark after public review",
+    "principle": "Rows named by the operator are removed from the core benchmark and replaced with same-source rows from the locked strat300 pool. Model hypotheses remain untouched.",
     "decisions": [
       {
         "id": "fleurs_1016030443404088766",
@@ -4146,9 +4163,18 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Very low volume.",
-        "action": "move_out_of_core_to_low_volume_robustness_bucket",
-        "reason": "A clean promotion gate should not mix ordinary ASR accuracy with low-volume robustness unless the bucket is explicit."
+        "operator_note": "Very low volume from prior review.",
+        "action": "move_out_of_core_to_low_volume_robustness_bucket"
+      },
+      {
+        "id": "fleurs_11373730056448997779",
+        "source": "fleurs",
+        "tracks": [
+          "hearing",
+          "dictation"
+        ],
+        "operator_note": "Replace: XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis.",
+        "action": "replace_from_core"
       },
       {
         "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
@@ -4157,10 +4183,8 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Audio ends at 'tokia'. Current reference over-runs the voiced span.",
-        "action": "truncate_reference_to_voiced_span_after_audio_confirmation",
-        "proposed_reference": "Ir antras dalykas, jus ko gero gerai zinote, kad Lietuvoje valstybine kalba yra lietuviu kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo i tokia.",
-        "reason": "If the reference includes words not present in the audio, production and candidate WER are invalid for that row."
+        "operator_note": "Replace: Ir antras dalykas jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba...",
+        "action": "replace_from_core"
       },
       {
         "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
@@ -4169,9 +4193,8 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Not fully voiced.",
-        "action": "exclude_from_core_benchmark_or_resegment",
-        "reason": "Partially voiced reference rows are not fair ASR accuracy rows."
+        "operator_note": "Replace: Rusija, žaisdama be kompromisų...",
+        "action": "replace_from_core"
       },
       {
         "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
@@ -4180,9 +4203,8 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Not fully voiced.",
-        "action": "exclude_from_core_benchmark_or_resegment",
-        "reason": "Partially voiced reference rows are not fair ASR accuracy rows."
+        "operator_note": "Replace: Labai smagu girdėti tiek daug sveikinimų...",
+        "action": "replace_from_core"
       },
       {
         "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13",
@@ -4191,35 +4213,27 @@
           "hearing",
           "dictation"
         ],
-        "operator_note": "Remove from benchmark.",
-        "action": "remove_from_benchmark",
-        "reason": "Explicit human benchmark curation decision."
+        "operator_note": "Replace: Todėl labai noriu padėkoti visai Lietuvos komandai...",
+        "action": "replace_from_core"
       }
-    ],
-    "next_steps": [
-      "Create a curated gate30_v2 manifest that excludes removed/partial rows from the core gate and moves the low-volume row to an explicit robustness bucket.",
-      "For the truncated-reference row, verify the exact audio endpoint once more, update only the reference text, and keep the model hypothesis unchanged.",
-      "Backfill removed core rows with same-source replacement rows so the gate remains balanced.",
-      "Rescore existing prediction files against corrected references where audio is unchanged; rerun ASR only for replacement rows.",
-      "Republish the benchmark review page with Core, Robustness, and Excluded/Repair tabs."
     ]
   },
   "final_curated_scores": {
     "created_at": "2026-05-27",
-    "classification": "gate30_curated_v2_final_scores_complete",
-    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v2_20260527",
+    "classification": "gate30_curated_v3_final_scores_complete",
+    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v3_20260527",
     "backfill_eval_dirs": {
       "control": {
-        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_153636_autoresearch_20260527_gate30_curated_v2_backfill_control-hearing",
-        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_153640_autoresearch_20260527_gate30_curated_v2_backfill_control-dictation"
+        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165523_autoresearch_20260527_gate30_curated_v3_backfill_control-hearing",
+        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165530_autoresearch_20260527_gate30_curated_v3_backfill_control-dictation"
       },
       "step50": {
-        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_153735_autoresearch_20260527_gate30_curated_v2_backfill_step50-hearing",
-        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_153739_autoresearch_20260527_gate30_curated_v2_backfill_step50-dictation"
+        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165624_autoresearch_20260527_gate30_curated_v3_backfill_step50-hearing",
+        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165631_autoresearch_20260527_gate30_curated_v3_backfill_step50-dictation"
       },
       "step300": {
-        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_153832_autoresearch_20260527_gate30_curated_v2_backfill_step300-hearing",
-        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_153836_autoresearch_20260527_gate30_curated_v2_backfill_step300-dictation"
+        "hearing": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165723_autoresearch_20260527_gate30_curated_v3_backfill_step300-hearing",
+        "dictation": "E:\\VibeDictate\\autoresearch\\eval_results\\20260527_165730_autoresearch_20260527_gate30_curated_v3_backfill_step300-dictation"
       }
     },
     "runs": {
@@ -4227,17 +4241,17 @@
         "hearing": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.09158415841584158,
-            "cer": 0.033951835767864195,
-            "word_edits": 37,
-            "word_ref": 404,
-            "char_edits": 86,
-            "char_ref": 2533,
-            "duration_sec": 246.376,
-            "latency_mean_sec": 0.864144,
-            "latency_p50_sec": 0.813837,
-            "latency_p90_sec": 1.194208,
-            "rtf_mean": 0.112218,
+            "wer": 0.10406091370558376,
+            "cer": 0.04874213836477988,
+            "word_edits": 41,
+            "word_ref": 394,
+            "char_edits": 124,
+            "char_ref": 2544,
+            "duration_sec": 242.115,
+            "latency_mean_sec": 0.874392,
+            "latency_p50_sec": 0.787589,
+            "latency_p90_sec": 1.214374,
+            "rtf_mean": 0.114728,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4260,33 +4274,33 @@
             },
             "fleurs": {
               "rows": 10,
-              "wer": 0.06936416184971098,
-              "cer": 0.03383458646616541,
-              "word_edits": 12,
-              "word_ref": 173,
-              "char_edits": 36,
-              "char_ref": 1064,
-              "duration_sec": 118.98,
-              "latency_mean_sec": 1.083538,
+              "wer": 0.041176470588235294,
+              "cer": 0.012172284644194757,
+              "word_edits": 7,
+              "word_ref": 170,
+              "char_edits": 13,
+              "char_ref": 1068,
+              "duration_sec": 114.3,
+              "latency_mean_sec": 1.085957,
               "latency_p50_sec": 1.101471,
-              "latency_p90_sec": 1.258375,
-              "rtf_mean": 0.092014,
+              "latency_p90_sec": 1.268916,
+              "rtf_mean": 0.095747,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.08387096774193549,
-              "cer": 0.03398558187435633,
-              "word_edits": 13,
-              "word_ref": 155,
-              "char_edits": 33,
-              "char_ref": 971,
-              "duration_sec": 72.579,
-              "latency_mean_sec": 0.816312,
+              "wer": 0.14864864864864866,
+              "cer": 0.09611451942740286,
+              "word_edits": 22,
+              "word_ref": 148,
+              "char_edits": 94,
+              "char_ref": 978,
+              "duration_sec": 72.998,
+              "latency_mean_sec": 0.844635,
               "latency_p50_sec": 0.821578,
-              "latency_p90_sec": 0.979064,
-              "rtf_mean": 0.116263,
+              "latency_p90_sec": 1.022347,
+              "rtf_mean": 0.120059,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4295,17 +4309,17 @@
         "dictation": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.09405940594059406,
-            "cer": 0.04072756030051404,
-            "word_edits": 38,
-            "word_ref": 404,
-            "char_edits": 103,
-            "char_ref": 2529,
-            "duration_sec": 246.376,
-            "latency_mean_sec": 0.805759,
-            "latency_p50_sec": 0.806866,
+            "wer": 0.1065989847715736,
+            "cer": 0.052465483234714005,
+            "word_edits": 42,
+            "word_ref": 394,
+            "char_edits": 133,
+            "char_ref": 2535,
+            "duration_sec": 242.115,
+            "latency_mean_sec": 0.803624,
+            "latency_p50_sec": 0.791191,
             "latency_p90_sec": 1.120923,
-            "rtf_mean": 0.104026,
+            "rtf_mean": 0.10499,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4328,33 +4342,33 @@
             },
             "fleurs": {
               "rows": 10,
-              "wer": 0.07514450867052024,
-              "cer": 0.05042816365366318,
-              "word_edits": 13,
-              "word_ref": 173,
-              "char_edits": 53,
-              "char_ref": 1051,
-              "duration_sec": 118.98,
-              "latency_mean_sec": 0.966098,
-              "latency_p50_sec": 0.992487,
+              "wer": 0.047058823529411764,
+              "cer": 0.02085308056872038,
+              "word_edits": 8,
+              "word_ref": 170,
+              "char_edits": 22,
+              "char_ref": 1055,
+              "duration_sec": 114.3,
+              "latency_mean_sec": 0.9619,
+              "latency_p50_sec": 1.030472,
               "latency_p90_sec": 1.134304,
-              "rtf_mean": 0.081207,
+              "rtf_mean": 0.084227,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.08387096774193549,
-              "cer": 0.03381147540983607,
-              "word_edits": 13,
-              "word_ref": 155,
-              "char_edits": 33,
-              "char_ref": 976,
-              "duration_sec": 72.579,
-              "latency_mean_sec": 0.844248,
+              "wer": 0.14864864864864866,
+              "cer": 0.09611451942740286,
+              "word_edits": 22,
+              "word_ref": 148,
+              "char_edits": 94,
+              "char_ref": 978,
+              "duration_sec": 72.998,
+              "latency_mean_sec": 0.842042,
               "latency_p50_sec": 0.850753,
-              "latency_p90_sec": 1.004408,
-              "rtf_mean": 0.119919,
+              "latency_p90_sec": 1.022643,
+              "rtf_mean": 0.119792,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4365,17 +4379,17 @@
         "hearing": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.09653465346534654,
-            "cer": 0.0359257797078563,
-            "word_edits": 39,
-            "word_ref": 404,
-            "char_edits": 91,
-            "char_ref": 2533,
-            "duration_sec": 246.376,
-            "latency_mean_sec": 0.884459,
-            "latency_p50_sec": 0.879766,
-            "latency_p90_sec": 1.182212,
-            "rtf_mean": 0.115055,
+            "wer": 0.10913705583756345,
+            "cer": 0.05070754716981132,
+            "word_edits": 43,
+            "word_ref": 394,
+            "char_edits": 129,
+            "char_ref": 2544,
+            "duration_sec": 242.115,
+            "latency_mean_sec": 0.874547,
+            "latency_p50_sec": 0.837352,
+            "latency_p90_sec": 1.18263,
+            "rtf_mean": 0.115359,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4398,33 +4412,33 @@
             },
             "fleurs": {
               "rows": 10,
-              "wer": 0.07514450867052024,
-              "cer": 0.03477443609022556,
-              "word_edits": 13,
-              "word_ref": 173,
-              "char_edits": 37,
-              "char_ref": 1064,
-              "duration_sec": 118.98,
-              "latency_mean_sec": 1.086606,
+              "wer": 0.047058823529411764,
+              "cer": 0.013108614232209739,
+              "word_edits": 8,
+              "word_ref": 170,
+              "char_edits": 14,
+              "char_ref": 1068,
+              "duration_sec": 114.3,
+              "latency_mean_sec": 1.051559,
               "latency_p50_sec": 1.040122,
-              "latency_p90_sec": 1.243872,
-              "rtf_mean": 0.092094,
+              "latency_p90_sec": 1.240375,
+              "rtf_mean": 0.092309,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.09032258064516129,
-              "cer": 0.03810504634397528,
-              "word_edits": 14,
-              "word_ref": 155,
-              "char_edits": 37,
-              "char_ref": 971,
-              "duration_sec": 72.579,
-              "latency_mean_sec": 0.855155,
+              "wer": 0.1554054054054054,
+              "cer": 0.10020449897750511,
+              "word_edits": 23,
+              "word_ref": 148,
+              "char_edits": 98,
+              "char_ref": 978,
+              "duration_sec": 72.998,
+              "latency_mean_sec": 0.860468,
               "latency_p50_sec": 0.863955,
-              "latency_p90_sec": 1.065414,
-              "rtf_mean": 0.121849,
+              "latency_p90_sec": 1.065832,
+              "rtf_mean": 0.122544,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4433,17 +4447,17 @@
         "dictation": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.09900990099009901,
-            "cer": 0.042704626334519574,
-            "word_edits": 40,
-            "word_ref": 404,
-            "char_edits": 108,
-            "char_ref": 2529,
-            "duration_sec": 246.376,
-            "latency_mean_sec": 0.830417,
-            "latency_p50_sec": 0.812101,
+            "wer": 0.1116751269035533,
+            "cer": 0.054437869822485205,
+            "word_edits": 44,
+            "word_ref": 394,
+            "char_edits": 138,
+            "char_ref": 2535,
+            "duration_sec": 242.115,
+            "latency_mean_sec": 0.822322,
+            "latency_p50_sec": 0.780761,
             "latency_p90_sec": 1.159788,
-            "rtf_mean": 0.107713,
+            "rtf_mean": 0.10877,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4466,33 +4480,33 @@
             },
             "fleurs": {
               "rows": 10,
-              "wer": 0.08092485549132948,
-              "cer": 0.05137963843958135,
-              "word_edits": 14,
-              "word_ref": 173,
-              "char_edits": 54,
-              "char_ref": 1051,
-              "duration_sec": 118.98,
-              "latency_mean_sec": 1.015809,
-              "latency_p50_sec": 1.026724,
+              "wer": 0.052941176470588235,
+              "cer": 0.021800947867298578,
+              "word_edits": 9,
+              "word_ref": 170,
+              "char_edits": 23,
+              "char_ref": 1055,
+              "duration_sec": 114.3,
+              "latency_mean_sec": 0.975921,
+              "latency_p50_sec": 1.004693,
               "latency_p90_sec": 1.214678,
-              "rtf_mean": 0.085113,
+              "rtf_mean": 0.085165,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.09032258064516129,
-              "cer": 0.03790983606557377,
-              "word_edits": 14,
-              "word_ref": 155,
-              "char_edits": 37,
-              "char_ref": 976,
-              "duration_sec": 72.579,
-              "latency_mean_sec": 0.849413,
+              "wer": 0.1554054054054054,
+              "cer": 0.10020449897750511,
+              "word_edits": 23,
+              "word_ref": 148,
+              "char_edits": 98,
+              "char_ref": 978,
+              "duration_sec": 72.998,
+              "latency_mean_sec": 0.865016,
               "latency_p50_sec": 0.846845,
-              "latency_p90_sec": 1.044267,
-              "rtf_mean": 0.120627,
+              "latency_p90_sec": 1.041069,
+              "rtf_mean": 0.123745,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4503,17 +4517,17 @@
         "hearing": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.10643564356435643,
-            "cer": 0.033951835767864195,
-            "word_edits": 43,
-            "word_ref": 404,
-            "char_edits": 86,
-            "char_ref": 2533,
-            "duration_sec": 246.376,
-            "latency_mean_sec": 0.900387,
-            "latency_p50_sec": 0.849949,
-            "latency_p90_sec": 1.238869,
-            "rtf_mean": 0.117208,
+            "wer": 0.11928934010152284,
+            "cer": 0.050314465408805034,
+            "word_edits": 47,
+            "word_ref": 394,
+            "char_edits": 128,
+            "char_ref": 2544,
+            "duration_sec": 242.115,
+            "latency_mean_sec": 0.898014,
+            "latency_p50_sec": 0.832731,
+            "latency_p90_sec": 1.232451,
+            "rtf_mean": 0.117906,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4536,33 +4550,33 @@
             },
             "fleurs": {
               "rows": 10,
-              "wer": 0.08670520231213873,
-              "cer": 0.03195488721804511,
-              "word_edits": 15,
-              "word_ref": 173,
-              "char_edits": 34,
-              "char_ref": 1064,
-              "duration_sec": 118.98,
-              "latency_mean_sec": 1.097578,
+              "wer": 0.058823529411764705,
+              "cer": 0.014044943820224719,
+              "word_edits": 10,
+              "word_ref": 170,
+              "char_edits": 15,
+              "char_ref": 1068,
+              "duration_sec": 114.3,
+              "latency_mean_sec": 1.094255,
               "latency_p50_sec": 1.071296,
-              "latency_p90_sec": 1.311442,
-              "rtf_mean": 0.092868,
+              "latency_p90_sec": 1.323231,
+              "rtf_mean": 0.095938,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.1032258064516129,
-              "cer": 0.03810504634397528,
-              "word_edits": 16,
-              "word_ref": 155,
-              "char_edits": 37,
-              "char_ref": 971,
-              "duration_sec": 72.579,
-              "latency_mean_sec": 0.874081,
+              "wer": 0.16891891891891891,
+              "cer": 0.10020449897750511,
+              "word_edits": 25,
+              "word_ref": 148,
+              "char_edits": 98,
+              "char_ref": 978,
+              "duration_sec": 72.998,
+              "latency_mean_sec": 0.870284,
               "latency_p50_sec": 0.867544,
-              "latency_p90_sec": 1.130292,
-              "rtf_mean": 0.12394,
+              "latency_p90_sec": 1.129579,
+              "rtf_mean": 0.122965,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4571,17 +4585,17 @@
         "dictation": {
           "aggregate": {
             "rows": 30,
-            "wer": 0.10891089108910891,
-            "cer": 0.04072756030051404,
-            "word_edits": 44,
-            "word_ref": 404,
-            "char_edits": 103,
-            "char_ref": 2529,
-            "duration_sec": 246.376,
-            "latency_mean_sec": 0.828478,
-            "latency_p50_sec": 0.799415,
+            "wer": 0.1218274111675127,
+            "cer": 0.05404339250493097,
+            "word_edits": 48,
+            "word_ref": 394,
+            "char_edits": 137,
+            "char_ref": 2535,
+            "duration_sec": 242.115,
+            "latency_mean_sec": 0.82995,
+            "latency_p50_sec": 0.793551,
             "latency_p90_sec": 1.146411,
-            "rtf_mean": 0.107491,
+            "rtf_mean": 0.108595,
             "empty_hypotheses": 0,
             "hallucination_like": 0
           },
@@ -4604,33 +4618,33 @@
             },
             "fleurs": {
               "rows": 10,
-              "wer": 0.09248554913294797,
-              "cer": 0.048525214081826834,
-              "word_edits": 16,
-              "word_ref": 173,
-              "char_edits": 51,
-              "char_ref": 1051,
-              "duration_sec": 118.98,
-              "latency_mean_sec": 0.999119,
+              "wer": 0.06470588235294118,
+              "cer": 0.022748815165876776,
+              "word_edits": 11,
+              "word_ref": 170,
+              "char_edits": 24,
+              "char_ref": 1055,
+              "duration_sec": 114.3,
+              "latency_mean_sec": 0.984166,
               "latency_p50_sec": 1.036788,
               "latency_p90_sec": 1.156045,
-              "rtf_mean": 0.08379,
+              "rtf_mean": 0.085763,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             },
             "voxpopuli_lt": {
               "rows": 10,
-              "wer": 0.1032258064516129,
-              "cer": 0.03790983606557377,
-              "word_edits": 16,
-              "word_ref": 155,
-              "char_edits": 37,
-              "char_ref": 976,
-              "duration_sec": 72.579,
-              "latency_mean_sec": 0.859171,
+              "wer": 0.16891891891891891,
+              "cer": 0.10020449897750511,
+              "word_edits": 25,
+              "word_ref": 148,
+              "char_edits": 98,
+              "char_ref": 978,
+              "duration_sec": 72.998,
+              "latency_mean_sec": 0.878539,
               "latency_p50_sec": 0.871456,
-              "latency_p90_sec": 1.059228,
-              "rtf_mean": 0.122228,
+              "latency_p90_sec": 1.074524,
+              "rtf_mean": 0.123567,
               "empty_hypotheses": 0,
               "hallucination_like": 0
             }
@@ -4853,18 +4867,6 @@
               "reference": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje."
             },
             {
-              "id": "fleurs_11373730056448997779",
-              "source": "fleurs",
-              "changed": false,
-              "delta_word_edits": 0,
-              "delta_char_edits": 0,
-              "baseline_word_edits": 5,
-              "candidate_word_edits": 5,
-              "baseline_hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "candidate_hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "reference": "XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis."
-            },
-            {
               "id": "fleurs_11395665186825593839",
               "source": "fleurs",
               "changed": false,
@@ -4875,18 +4877,6 @@
               "baseline_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "candidate_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "reference": "1963 m. pastačius užtvanką buvo sustabdyti sezoniniai potvyniai, paskleidžiantys nuosėdas visoje upėje."
-            },
-            {
-              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
-              "source": "voxpopuli_lt",
-              "changed": false,
-              "delta_word_edits": 0,
-              "delta_char_edits": 0,
-              "baseline_word_edits": 1,
-              "candidate_word_edits": 1,
-              "baseline_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "candidate_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "reference": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią."
             },
             {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
@@ -4973,6 +4963,18 @@
               "reference": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius. Tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu."
             },
             {
+              "id": "fleurs_11474992114334994163",
+              "source": "fleurs",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 0,
+              "candidate_word_edits": 0,
+              "baseline_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "candidate_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "reference": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis."
+            },
+            {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "source": "voxpopuli_lt",
               "changed": false,
@@ -5007,6 +5009,18 @@
               "baseline_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "candidate_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
+            },
+            {
+              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "source": "voxpopuli_lt",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 10,
+              "candidate_word_edits": 10,
+              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
             }
           ]
         },
@@ -5223,18 +5237,6 @@
               "reference": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje."
             },
             {
-              "id": "fleurs_11373730056448997779",
-              "source": "fleurs",
-              "changed": false,
-              "delta_word_edits": 0,
-              "delta_char_edits": 0,
-              "baseline_word_edits": 5,
-              "candidate_word_edits": 5,
-              "baseline_hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "candidate_hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "reference": "XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis."
-            },
-            {
               "id": "fleurs_11395665186825593839",
               "source": "fleurs",
               "changed": false,
@@ -5245,18 +5247,6 @@
               "baseline_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "candidate_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "reference": "1963 m. pastačius užtvanką buvo sustabdyti sezoniniai potvyniai, paskleidžiantys nuosėdas visoje upėje."
-            },
-            {
-              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
-              "source": "voxpopuli_lt",
-              "changed": false,
-              "delta_word_edits": 0,
-              "delta_char_edits": 0,
-              "baseline_word_edits": 1,
-              "candidate_word_edits": 1,
-              "baseline_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "candidate_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "reference": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią."
             },
             {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
@@ -5343,6 +5333,18 @@
               "reference": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius. Tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu."
             },
             {
+              "id": "fleurs_11474992114334994163",
+              "source": "fleurs",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 0,
+              "candidate_word_edits": 0,
+              "baseline_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "candidate_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "reference": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis."
+            },
+            {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "source": "voxpopuli_lt",
               "changed": false,
@@ -5377,6 +5379,18 @@
               "baseline_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "candidate_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
+            },
+            {
+              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "source": "voxpopuli_lt",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 10,
+              "candidate_word_edits": 10,
+              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
             }
           ]
         }
@@ -5384,11 +5398,11 @@
       "step300": {
         "hearing": {
           "rows": 30,
-          "changed_hypotheses": 8,
+          "changed_hypotheses": 7,
           "improved_word_rows": 0,
           "worsened_word_rows": 5,
           "delta_word_edits": 6,
-          "delta_char_edits": 0,
+          "delta_char_edits": 4,
           "details": [
             {
               "id": "cv25_common_voice_lt_23715864",
@@ -5595,18 +5609,6 @@
               "reference": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje."
             },
             {
-              "id": "fleurs_11373730056448997779",
-              "source": "fleurs",
-              "changed": true,
-              "delta_word_edits": 0,
-              "delta_char_edits": -4,
-              "baseline_word_edits": 5,
-              "candidate_word_edits": 5,
-              "baseline_hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "candidate_hypothesis": "Dvidešimto amžiaus trečiame dešimtmetyje dauguma žmonių ir ištiksos tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "reference": "XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis."
-            },
-            {
               "id": "fleurs_11395665186825593839",
               "source": "fleurs",
               "changed": false,
@@ -5617,18 +5619,6 @@
               "baseline_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "candidate_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "reference": "1963 m. pastačius užtvanką buvo sustabdyti sezoniniai potvyniai, paskleidžiantys nuosėdas visoje upėje."
-            },
-            {
-              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
-              "source": "voxpopuli_lt",
-              "changed": false,
-              "delta_word_edits": 0,
-              "delta_char_edits": 0,
-              "baseline_word_edits": 1,
-              "candidate_word_edits": 1,
-              "baseline_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "candidate_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "reference": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią."
             },
             {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
@@ -5715,6 +5705,18 @@
               "reference": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius. Tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu."
             },
             {
+              "id": "fleurs_11474992114334994163",
+              "source": "fleurs",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 0,
+              "candidate_word_edits": 0,
+              "baseline_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "candidate_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "reference": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis."
+            },
+            {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "source": "voxpopuli_lt",
               "changed": true,
@@ -5749,16 +5751,28 @@
               "baseline_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "candidate_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
+            },
+            {
+              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "source": "voxpopuli_lt",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 10,
+              "candidate_word_edits": 10,
+              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
             }
           ]
         },
         "dictation": {
           "rows": 30,
-          "changed_hypotheses": 8,
+          "changed_hypotheses": 7,
           "improved_word_rows": 0,
           "worsened_word_rows": 5,
           "delta_word_edits": 6,
-          "delta_char_edits": 0,
+          "delta_char_edits": 4,
           "details": [
             {
               "id": "cv25_common_voice_lt_23715864",
@@ -5965,18 +5979,6 @@
               "reference": "802.11n standartas veikia ir 2,4 GHz, ir 5,0 GHz dažnyje."
             },
             {
-              "id": "fleurs_11373730056448997779",
-              "source": "fleurs",
-              "changed": true,
-              "delta_word_edits": 0,
-              "delta_char_edits": -4,
-              "baseline_word_edits": 5,
-              "candidate_word_edits": 5,
-              "baseline_hypothesis": "Dvidešimto amžiaus trečiajame dešimtmetyje dauguma žmonių ir ištikusios tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "candidate_hypothesis": "Dvidešimto amžiaus trečiame dešimtmetyje dauguma žmonių ir ištiksos tautos gyveno pacifizmo ir izoliavimo idėjomis.",
-              "reference": "XX a. 3 dešimtmetyje dauguma žmonių ir ištisos tautos gyveno pacifizmo ir izoliavimosi idėjomis."
-            },
-            {
               "id": "fleurs_11395665186825593839",
               "source": "fleurs",
               "changed": false,
@@ -5987,18 +5989,6 @@
               "baseline_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "candidate_hypothesis": "1963 m. pastatžius užtvanką buvo sustabdyti sezoniniai potviniai, paskleidžiantys nuosėdas visoje upėje.",
               "reference": "1963 m. pastačius užtvanką buvo sustabdyti sezoniniai potvyniai, paskleidžiantys nuosėdas visoje upėje."
-            },
-            {
-              "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
-              "source": "voxpopuli_lt",
-              "changed": false,
-              "delta_word_edits": 0,
-              "delta_char_edits": 0,
-              "baseline_word_edits": 1,
-              "candidate_word_edits": 1,
-              "baseline_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "candidate_hypothesis": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokios.",
-              "reference": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią."
             },
             {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
@@ -6085,6 +6075,18 @@
               "reference": "Pabėgiai buvo sukurti gana seniai, siekiant sutvirtinti bėgius. Tačiau palaipsniui paaiškėjo, kad bėgiai yra veiksmingesni, jei dengti juos metalu."
             },
             {
+              "id": "fleurs_11474992114334994163",
+              "source": "fleurs",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 0,
+              "candidate_word_edits": 0,
+              "baseline_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "candidate_hypothesis": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis.",
+              "reference": "Daug populiaresnis variantas planuojantiems padaryti metų pertrauką yra keliavimas ir mokymasis."
+            },
+            {
               "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
               "source": "voxpopuli_lt",
               "changed": true,
@@ -6119,6 +6121,18 @@
               "baseline_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "candidate_hypothesis": "Tokia situacija neturi būti toleruojama, todėl kartu esu raginama komisijai prisimti atsakomybę.",
               "reference": "Tokia situacija neturi būti toleruojama, todėl kartoju savo raginimą Komisijai prisiimti atsakomybę."
+            },
+            {
+              "id": "voxpopuli_lt_20140205-0900-PLENARY-11-lt_20140205-15-57-18_4",
+              "source": "voxpopuli_lt",
+              "changed": false,
+              "delta_word_edits": 0,
+              "delta_char_edits": 0,
+              "baseline_word_edits": 10,
+              "candidate_word_edits": 10,
+              "baseline_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "candidate_hypothesis": "Įtikinti visas konfrontuojančias šalis, nutraukti provokacijas ir smurtą asmenų sulaikimus ir pastatų užėmimus. Tai turėtų būti nediskutuojamas.",
+              "reference": "Tačiau pirmutinis tikslas šiandien yra įtikinti visas konfrontuojančias šalis nutraukti provokacijas ir smurtą, asmenų sulaikymus ir pastatų užėmimus."
             }
           ]
         }
