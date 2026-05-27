@@ -75,7 +75,7 @@
     
     <section>
       <h2>Human-Curated Gate30 v2</h2>
-      <div class="decision">Live benchmark status: curated manifests are materialized, but final v2 scoring is pending fresh ASR decode for four backfill replacement rows.</div>
+      <div class="decision">Live benchmark status: final curated v2 scoring is complete.</div>
       <div class="package-grid">
         
         <div class="package-box">
@@ -94,7 +94,23 @@
         <div class="package-box"><b>1</b><span>low-volume robustness row</span><div class="small">fleurs_1016030443404088766</div></div>
         <div class="package-box"><b>3</b><span>excluded / repair rows</span><div class="small">not scored in core v2</div></div>
       </div>
-      <p>Backfill rows awaiting fresh decode: fleurs_12850294873640132979, voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6, voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9, voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10</p>
+      <p>Backfill rows decoded: fleurs_12850294873640132979, voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6, voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9, voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10</p>
+      
+      <h3>Final Curated v2 Scores</h3>
+      <div class="scroll" style="max-height: 260px;">
+        <table>
+          <thead><tr><th>Run</th><th>Track</th><th>Rows</th><th>WER</th><th>CER</th><th>Word edits / ref</th></tr></thead>
+          <tbody><tr><td>control</td><td>hearing</td><td>30</td><td>9.16%</td><td>3.40%</td><td>37 / 404</td></tr><tr><td>control</td><td>dictation</td><td>30</td><td>9.41%</td><td>4.07%</td><td>38 / 404</td></tr><tr><td>step50</td><td>hearing</td><td>30</td><td>9.65%</td><td>3.59%</td><td>39 / 404</td></tr><tr><td>step50</td><td>dictation</td><td>30</td><td>9.90%</td><td>4.27%</td><td>40 / 404</td></tr><tr><td>step300</td><td>hearing</td><td>30</td><td>10.64%</td><td>3.40%</td><td>43 / 404</td></tr><tr><td>step300</td><td>dictation</td><td>30</td><td>10.89%</td><td>4.07%</td><td>44 / 404</td></tr></tbody>
+        </table>
+      </div>
+      <h3>Final Candidate Diff vs Production</h3>
+      <div class="scroll" style="max-height: 220px;">
+        <table>
+          <thead><tr><th>Candidate</th><th>Track</th><th>Changed hypotheses</th><th>Improved rows</th><th>Worsened rows</th><th>Delta word edits</th></tr></thead>
+          <tbody><tr><td>step50</td><td>hearing</td><td>2</td><td>0</td><td>2</td><td>2</td></tr><tr><td>step50</td><td>dictation</td><td>2</td><td>0</td><td>2</td><td>2</td></tr><tr><td>step300</td><td>hearing</td><td>8</td><td>0</td><td>5</td><td>6</td></tr><tr><td>step300</td><td>dictation</td><td>8</td><td>0</td><td>5</td><td>6</td></tr></tbody>
+        </table>
+      </div>
+      
       <h3>Provisional Existing-Row Rescore</h3>
       <p class="small">This rescoring covers only the 26 old rows that still have existing production/step50/step300 predictions. It is useful directionally, but it is not the final curated v2 score.</p>
       <div class="scroll" style="max-height: 260px;">
