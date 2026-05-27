@@ -72,8 +72,49 @@
     </div>
   </header>
   <main>
+    
     <section>
-      <h2>Headline Metrics</h2>
+      <h2>Human-Curated Gate30 v2</h2>
+      <div class="decision">Live benchmark status: curated manifests are materialized, but final v2 scoring is pending fresh ASR decode for four backfill replacement rows.</div>
+      <div class="package-grid">
+        
+        <div class="package-box">
+          <b>30</b><span>hearing core rows</span>
+          <div class="small">sources {&quot;common_voice_25&quot;: 10, &quot;fleurs&quot;: 10, &quot;voxpopuli_lt&quot;: 10}</div>
+          <div class="small">kept 25, corrected 1, backfill 4</div>
+        </div>
+        
+        
+        <div class="package-box">
+          <b>30</b><span>dictation core rows</span>
+          <div class="small">sources {&quot;common_voice_25&quot;: 10, &quot;fleurs&quot;: 10, &quot;voxpopuli_lt&quot;: 10}</div>
+          <div class="small">kept 25, corrected 1, backfill 4</div>
+        </div>
+        
+        <div class="package-box"><b>1</b><span>low-volume robustness row</span><div class="small">fleurs_1016030443404088766</div></div>
+        <div class="package-box"><b>3</b><span>excluded / repair rows</span><div class="small">not scored in core v2</div></div>
+      </div>
+      <p>Backfill rows awaiting fresh decode: fleurs_12850294873640132979, voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6, voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9, voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10</p>
+      <h3>Provisional Existing-Row Rescore</h3>
+      <p class="small">This rescoring covers only the 26 old rows that still have existing production/step50/step300 predictions. It is useful directionally, but it is not the final curated v2 score.</p>
+      <div class="scroll" style="max-height: 260px;">
+        <table>
+          <thead><tr><th>Run</th><th>Track</th><th>Rows scored</th><th>WER</th><th>CER</th><th>Missing backfills</th></tr></thead>
+          <tbody><tr><td>control</td><td>hearing</td><td>26/30</td><td>8.96%</td><td>3.41%</td><td>4</td></tr><tr><td>control</td><td>dictation</td><td>26/30</td><td>9.25%</td><td>4.21%</td><td>4</td></tr><tr><td>step50</td><td>hearing</td><td>26/30</td><td>9.54%</td><td>3.64%</td><td>4</td></tr><tr><td>step50</td><td>dictation</td><td>26/30</td><td>9.83%</td><td>4.44%</td><td>4</td></tr><tr><td>step300</td><td>hearing</td><td>26/30</td><td>10.12%</td><td>3.41%</td><td>4</td></tr><tr><td>step300</td><td>dictation</td><td>26/30</td><td>10.40%</td><td>4.21%</td><td>4</td></tr></tbody>
+        </table>
+      </div>
+      <h3>Curation Decisions</h3>
+      <div class="scroll" style="max-height: 260px;">
+        <table>
+          <thead><tr><th>ID</th><th>Source</th><th>Action</th><th>Human note</th></tr></thead>
+          <tbody><tr><td>fleurs_1016030443404088766</td><td>fleurs</td><td>move_out_of_core_to_low_volume_robustness_bucket</td><td>Very low volume.</td></tr><tr><td>voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1</td><td>voxpopuli_lt</td><td>truncate_reference_to_voiced_span_after_audio_confirmation</td><td>Audio ends at &#x27;tokia&#x27;. Current reference over-runs the voiced span.</td></tr><tr><td>voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7</td><td>voxpopuli_lt</td><td>exclude_from_core_benchmark_or_resegment</td><td>Not fully voiced.</td></tr><tr><td>voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0</td><td>voxpopuli_lt</td><td>exclude_from_core_benchmark_or_resegment</td><td>Not fully voiced.</td></tr><tr><td>voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13</td><td>voxpopuli_lt</td><td>remove_from_benchmark</td><td>Remove from benchmark.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+    
+
+    <section>
+      <h2>Original Gate30 Metrics</h2>
       <div class="cards">
         
             <section class="metric-card good">
@@ -106,7 +147,7 @@
             </section>
             
       </div>
-      <p class="small">Prediction diff summary: step50 changed 4 hypotheses with 0 improved and 4 worsened rows; step300 changed 18 hypotheses with 0 improved and 8 worsened rows.</p>
+      <p class="small">These are the old uncurated gate30 metrics retained for traceability. Prediction diff summary: step50 changed 4 hypotheses with 0 improved and 4 worsened rows; step300 changed 18 hypotheses with 0 improved and 8 worsened rows.</p>
     </section>
 
     <section>

@@ -3793,5 +3793,415 @@
     "missing_audio_files": 0,
     "missing_adapters": 0,
     "leakage_hits": 0
+  },
+  "curation": {
+    "created_at": "2026-05-27",
+    "classification": "gate30_curated_v2_materialized_pending_backfill_decode",
+    "output_dir": "E:\\VibeDictate\\datasets\\lt_eval_v4_strat300_clean_20260507\\tracks_gate30_curated_v2_20260527",
+    "core": {
+      "hearing": {
+        "rows": 30,
+        "source_rows": {
+          "common_voice_25": 10,
+          "fleurs": 10,
+          "voxpopuli_lt": 10
+        },
+        "action_rows": {
+          "backfill_replacement_core": 4,
+          "kept_original_core": 25,
+          "reference_truncated_to_voiced_span": 1
+        },
+        "duration_sec": 246.376,
+        "duration_hours": 0.068437778,
+        "ids": [
+          "cv25_common_voice_lt_23715864",
+          "cv25_common_voice_lt_23718394",
+          "cv25_common_voice_lt_23720301",
+          "cv25_common_voice_lt_23779365",
+          "cv25_common_voice_lt_23781571",
+          "cv25_common_voice_lt_23783034",
+          "cv25_common_voice_lt_23874957",
+          "cv25_common_voice_lt_24587367",
+          "cv25_common_voice_lt_25110896",
+          "cv25_common_voice_lt_25111229",
+          "fleurs_10044311676931971895",
+          "fleurs_10127244403608260525",
+          "fleurs_10211891191616024237",
+          "fleurs_10657118285888833355",
+          "fleurs_10683607897836413780",
+          "fleurs_10809590308665969964",
+          "fleurs_1135061970268070063",
+          "fleurs_11373730056448997779",
+          "fleurs_11395665186825593839",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_2",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5",
+          "fleurs_12850294873640132979",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+          "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+        ]
+      },
+      "dictation": {
+        "rows": 30,
+        "source_rows": {
+          "common_voice_25": 10,
+          "fleurs": 10,
+          "voxpopuli_lt": 10
+        },
+        "action_rows": {
+          "backfill_replacement_core": 4,
+          "kept_original_core": 25,
+          "reference_truncated_to_voiced_span": 1
+        },
+        "duration_sec": 246.376,
+        "duration_hours": 0.068437778,
+        "ids": [
+          "cv25_common_voice_lt_23715864",
+          "cv25_common_voice_lt_23718394",
+          "cv25_common_voice_lt_23720301",
+          "cv25_common_voice_lt_23779365",
+          "cv25_common_voice_lt_23781571",
+          "cv25_common_voice_lt_23783034",
+          "cv25_common_voice_lt_23874957",
+          "cv25_common_voice_lt_24587367",
+          "cv25_common_voice_lt_25110896",
+          "cv25_common_voice_lt_25111229",
+          "fleurs_10044311676931971895",
+          "fleurs_10127244403608260525",
+          "fleurs_10211891191616024237",
+          "fleurs_10657118285888833355",
+          "fleurs_10683607897836413780",
+          "fleurs_10809590308665969964",
+          "fleurs_1135061970268070063",
+          "fleurs_11373730056448997779",
+          "fleurs_11395665186825593839",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-53-34_6",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_10",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_12",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_2",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_3",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_5",
+          "fleurs_12850294873640132979",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+          "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+        ]
+      }
+    },
+    "robustness_low_volume": {
+      "hearing": {
+        "rows": 1,
+        "source_rows": {
+          "fleurs": 1
+        },
+        "action_rows": {
+          "moved_to_low_volume_robustness_bucket": 1
+        },
+        "duration_sec": 10.74,
+        "duration_hours": 0.002983333,
+        "ids": [
+          "fleurs_1016030443404088766"
+        ]
+      },
+      "dictation": {
+        "rows": 1,
+        "source_rows": {
+          "fleurs": 1
+        },
+        "action_rows": {
+          "moved_to_low_volume_robustness_bucket": 1
+        },
+        "duration_sec": 10.74,
+        "duration_hours": 0.002983333,
+        "ids": [
+          "fleurs_1016030443404088766"
+        ]
+      }
+    },
+    "excluded_or_repair": {
+      "hearing": {
+        "rows": 3,
+        "source_rows": {
+          "voxpopuli_lt": 3
+        },
+        "action_rows": {
+          "removed_from_core": 3
+        },
+        "duration_sec": 32.34,
+        "duration_hours": 0.008983333,
+        "ids": [
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13"
+        ]
+      },
+      "dictation": {
+        "rows": 3,
+        "source_rows": {
+          "voxpopuli_lt": 3
+        },
+        "action_rows": {
+          "removed_from_core": 3
+        },
+        "duration_sec": 32.34,
+        "duration_hours": 0.008983333,
+        "ids": [
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
+          "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13"
+        ]
+      }
+    },
+    "reference_corrections": {
+      "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1": "Ir antras dalykas, jūs ko gero gerai žinote, kad Lietuvoje valstybinė kalba yra lietuvių kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo į tokią."
+    },
+    "replacement_ids_by_source": {
+      "fleurs": [
+        "fleurs_12850294873640132979"
+      ],
+      "voxpopuli_lt": [
+        "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+        "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+        "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+      ]
+    },
+    "rescore_existing_predictions": {
+      "note": "Only rows with existing gate30 predictions are rescored. Backfill rows require fresh ASR decode.",
+      "runs": {
+        "control": {
+          "hearing": {
+            "predicted_rows": 26,
+            "missing_rows": [
+              "fleurs_12850294873640132979",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+            ],
+            "aggregate": {
+              "rows": 26,
+              "wer": 0.08959537572254335,
+              "cer": 0.03406439570695287,
+              "word_edits": 31,
+              "word_ref": 346,
+              "char_edits": 73,
+              "char_ref": 2143,
+              "duration_sec": 217.956,
+              "latency_mean_sec": 0.851582,
+              "latency_p50_sec": 0.813837,
+              "latency_p90_sec": 1.183501,
+              "rtf_mean": 0.109617,
+              "empty_hypotheses": 0,
+              "hallucination_like": 0
+            }
+          },
+          "dictation": {
+            "predicted_rows": 26,
+            "missing_rows": [
+              "fleurs_12850294873640132979",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+            ],
+            "aggregate": {
+              "rows": 26,
+              "wer": 0.09248554913294797,
+              "cer": 0.04207573632538569,
+              "word_edits": 32,
+              "word_ref": 346,
+              "char_edits": 90,
+              "char_ref": 2139,
+              "duration_sec": 217.956,
+              "latency_mean_sec": 0.80985,
+              "latency_p50_sec": 0.806866,
+              "latency_p90_sec": 1.125904,
+              "rtf_mean": 0.102102,
+              "empty_hypotheses": 0,
+              "hallucination_like": 0
+            }
+          }
+        },
+        "step50": {
+          "hearing": {
+            "predicted_rows": 26,
+            "missing_rows": [
+              "fleurs_12850294873640132979",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+            ],
+            "aggregate": {
+              "rows": 26,
+              "wer": 0.0953757225433526,
+              "cer": 0.036397573495100324,
+              "word_edits": 33,
+              "word_ref": 346,
+              "char_edits": 78,
+              "char_ref": 2143,
+              "duration_sec": 217.956,
+              "latency_mean_sec": 0.867692,
+              "latency_p50_sec": 0.879766,
+              "latency_p90_sec": 1.176897,
+              "rtf_mean": 0.111858,
+              "empty_hypotheses": 0,
+              "hallucination_like": 0
+            }
+          },
+          "dictation": {
+            "predicted_rows": 26,
+            "missing_rows": [
+              "fleurs_12850294873640132979",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+            ],
+            "aggregate": {
+              "rows": 26,
+              "wer": 0.09826589595375723,
+              "cer": 0.04441327723235157,
+              "word_edits": 34,
+              "word_ref": 346,
+              "char_edits": 95,
+              "char_ref": 2139,
+              "duration_sec": 217.956,
+              "latency_mean_sec": 0.840765,
+              "latency_p50_sec": 0.812101,
+              "latency_p90_sec": 1.18355,
+              "rtf_mean": 0.106901,
+              "empty_hypotheses": 0,
+              "hallucination_like": 0
+            }
+          }
+        },
+        "step300": {
+          "hearing": {
+            "predicted_rows": 26,
+            "missing_rows": [
+              "fleurs_12850294873640132979",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+            ],
+            "aggregate": {
+              "rows": 26,
+              "wer": 0.10115606936416185,
+              "cer": 0.03406439570695287,
+              "word_edits": 35,
+              "word_ref": 346,
+              "char_edits": 73,
+              "char_ref": 2143,
+              "duration_sec": 217.956,
+              "latency_mean_sec": 0.881831,
+              "latency_p50_sec": 0.849949,
+              "latency_p90_sec": 1.219358,
+              "rtf_mean": 0.113592,
+              "empty_hypotheses": 0,
+              "hallucination_like": 0
+            }
+          },
+          "dictation": {
+            "predicted_rows": 26,
+            "missing_rows": [
+              "fleurs_12850294873640132979",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_6",
+              "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_9",
+              "voxpopuli_lt_20150310-0900-PLENARY-16-lt_20150310-16-53-55_10"
+            ],
+            "aggregate": {
+              "rows": 26,
+              "wer": 0.10404624277456648,
+              "cer": 0.04207573632538569,
+              "word_edits": 36,
+              "word_ref": 346,
+              "char_edits": 90,
+              "char_ref": 2139,
+              "duration_sec": 217.956,
+              "latency_mean_sec": 0.831939,
+              "latency_p50_sec": 0.799415,
+              "latency_p90_sec": 1.146527,
+              "rtf_mean": 0.105557,
+              "empty_hypotheses": 0,
+              "hallucination_like": 0
+            }
+          }
+        }
+      }
+    },
+    "next_required_step": "Run ASR decode for the four backfill replacement rows for production/step50/step300, then compute final curated gate30_v2 scores."
+  },
+  "curation_overlay": {
+    "created_at": "2026-05-27",
+    "scope": "lt_eval gate30 benchmark human review notes from public review page",
+    "principle": "Do not edit model hypotheses. Correct references, row validity, and benchmark membership, then rescore or rerun against the curated benchmark.",
+    "decisions": [
+      {
+        "id": "fleurs_1016030443404088766",
+        "source": "fleurs",
+        "tracks": [
+          "hearing",
+          "dictation"
+        ],
+        "operator_note": "Very low volume.",
+        "action": "move_out_of_core_to_low_volume_robustness_bucket",
+        "reason": "A clean promotion gate should not mix ordinary ASR accuracy with low-volume robustness unless the bucket is explicit."
+      },
+      {
+        "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-09-52-57_1",
+        "source": "voxpopuli_lt",
+        "tracks": [
+          "hearing",
+          "dictation"
+        ],
+        "operator_note": "Audio ends at 'tokia'. Current reference over-runs the voiced span.",
+        "action": "truncate_reference_to_voiced_span_after_audio_confirmation",
+        "proposed_reference": "Ir antras dalykas, jus ko gero gerai zinote, kad Lietuvoje valstybine kalba yra lietuviu kalba ir tos baudos, kurios buvo skirtos, jos susiakumuliavo i tokia.",
+        "reason": "If the reference includes words not present in the audio, production and candidate WER are invalid for that row."
+      },
+      {
+        "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-34-33_7",
+        "source": "voxpopuli_lt",
+        "tracks": [
+          "hearing",
+          "dictation"
+        ],
+        "operator_note": "Not fully voiced.",
+        "action": "exclude_from_core_benchmark_or_resegment",
+        "reason": "Partially voiced reference rows are not fair ASR accuracy rows."
+      },
+      {
+        "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_0",
+        "source": "voxpopuli_lt",
+        "tracks": [
+          "hearing",
+          "dictation"
+        ],
+        "operator_note": "Not fully voiced.",
+        "action": "exclude_from_core_benchmark_or_resegment",
+        "reason": "Partially voiced reference rows are not fair ASR accuracy rows."
+      },
+      {
+        "id": "voxpopuli_lt_20140114-0900-PLENARY-3-lt_20140114-10-36-31_13",
+        "source": "voxpopuli_lt",
+        "tracks": [
+          "hearing",
+          "dictation"
+        ],
+        "operator_note": "Remove from benchmark.",
+        "action": "remove_from_benchmark",
+        "reason": "Explicit human benchmark curation decision."
+      }
+    ],
+    "next_steps": [
+      "Create a curated gate30_v2 manifest that excludes removed/partial rows from the core gate and moves the low-volume row to an explicit robustness bucket.",
+      "For the truncated-reference row, verify the exact audio endpoint once more, update only the reference text, and keep the model hypothesis unchanged.",
+      "Backfill removed core rows with same-source replacement rows so the gate remains balanced.",
+      "Rescore existing prediction files against corrected references where audio is unchanged; rerun ASR only for replacement rows.",
+      "Republish the benchmark review page with Core, Robustness, and Excluded/Repair tabs."
+    ]
   }
 }
